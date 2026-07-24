@@ -1,0 +1,17 @@
+<article class="project-card">
+  <a class="card-link" href="{{ include.project.url | relative_url }}" aria-label="Read about {{ include.project.title }}"></a>
+  <div class="card-topline">
+    <span class="project-number">0{{ include.index }}</span>
+    {% if include.project.featured %}<span class="project-status">Featured</span>{% endif %}
+  </div>
+  <h3>{{ include.project.title }}</h3>
+  <p>{{ include.project.summary }}</p>
+  {% if include.project.stack %}
+    <ul class="tag-list" aria-label="Technologies">
+      {% for item in include.project.stack %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  <span class="text-link">View project <span aria-hidden="true">↗</span></span>
+</article>
