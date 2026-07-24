@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="signal" aria-hidden="true"></span>{{ site.data.profile.eyebrow }}</p>
+      <h1>{{ site.data.profile.headline }}</h1>
+      <p class="hero-intro">{{ site.data.profile.intro }}</p>
+      <div class="button-row">
+        <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
+        <a class="button button-secondary" href="{{ '/about/' | relative_url }}">More about me</a>
+      </div>
+    </div>
+    <aside class="hero-note" aria-label="Current note">
+      <span class="note-label">Currently</span>
+      <p>{{ site.data.profile.availability }}</p>
+      <a href="{{ site.data.profile.github_url }}">Follow the work on GitHub ↗</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section ruled-section" aria-labelledby="selected-work">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="kicker">01 / Selected work</p>
+        <h2 id="selected-work">Things I’ve built</h2>
+      </div>
+      <a class="text-link desktop-link" href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="project-grid">
+      {% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
+      {% for project in featured_projects limit: 3 %}
+        {% include project-card.html project=project index=forloop.index %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section notes-section" aria-labelledby="latest-notes">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="kicker">02 / From the blog</p>
+        <h2 id="latest-notes">Latest notes</h2>
+      </div>
+    </div>
+    <div class="post-list">
+      {% for post in site.posts limit: 3 %}
+        <article class="post-row">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+          <div>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.description | default: post.excerpt | strip_html | truncate: 150 }}</p>
+          </div>
+          <a class="row-arrow" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">→</a>
+        </article>
+      {% endfor %}
+    </div>
+    <a class="button button-secondary mobile-button" href="{{ '/blog/' | relative_url }}">View all posts</a>
+  </div>
+</section>
