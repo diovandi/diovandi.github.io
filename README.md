@@ -46,6 +46,10 @@ Create a folder under `assets/images`, upload the image, and reference it from M
 
 Keep images reasonably small (ideally under 500 KB) so the site stays fast.
 
+## Collect portfolio material
+
+Use [`CONTENT_CHECKLIST.md`](CONTENT_CHECKLIST.md) to collect project images, engineering evidence, publication details, permissions, and profile material. It includes a dedicated D03 morphing-leading-edge checklist.
+
 ## Preview locally (optional)
 
 Install Ruby and Bundler, then run:
