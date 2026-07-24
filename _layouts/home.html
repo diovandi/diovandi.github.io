@@ -9,13 +9,13 @@ layout: default
       <p class="hero-intro">{{ site.data.profile.intro }}</p>
       <div class="button-row">
         <a class="button button-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span aria-hidden="true">→</span></a>
-        <a class="button button-secondary" href="{{ '/about/' | relative_url }}">More about me</a>
+        <a class="button button-secondary" href="{{ '/publications/' | relative_url }}">Read the research</a>
       </div>
     </div>
     <aside class="hero-note" aria-label="Current note">
       <span class="note-label">Currently</span>
       <p>{{ site.data.profile.availability }}</p>
-      <a href="{{ site.data.profile.github_url }}">Follow the work on GitHub ↗</a>
+      <a href="{{ site.data.profile.linkedin_url }}">Connect on LinkedIn ↗</a>
     </aside>
   </div>
 </section>
@@ -31,18 +31,45 @@ layout: default
     </div>
     <div class="project-grid">
       {% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
-      {% for project in featured_projects limit: 3 %}
+      {% for project in featured_projects limit: 4 %}
         {% include project-card.html project=project index=forloop.index %}
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="section notes-section" aria-labelledby="latest-notes">
+<section class="proof-strip" aria-label="Selected outcomes">
+  <div class="shell proof-grid">
+    <div><strong>21</strong><span>reference cases matched by the KST implementation</span></div>
+    <div><strong>€15,625+</strong><span>raised with the Stratos IV crowdfunding campaign</span></div>
+    <div><strong>200+</strong><span>members represented on DARE’s executive board</span></div>
+    <div><strong>0.15 m</strong><span>mean path deviation in the AMR patrol analysis</span></div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="selected-writing">
   <div class="shell">
     <div class="section-heading">
       <div>
-        <p class="kicker">02 / From the blog</p>
+        <p class="kicker">02 / Research & technical writing</p>
+        <h2 id="selected-writing">From analysis to evidence</h2>
+      </div>
+      <a class="text-link desktop-link" href="{{ '/publications/' | relative_url }}">All writing <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="publication-list">
+      {% assign featured_publications = site.publications | where: "featured", true | sort: "order" %}
+      {% for publication in featured_publications limit: 3 %}
+        {% include publication-card.html publication=publication %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section ruled-section notes-section" aria-labelledby="latest-notes">
+  <div class="shell">
+    <div class="section-heading">
+      <div>
+        <p class="kicker">03 / From the blog</p>
         <h2 id="latest-notes">Latest notes</h2>
       </div>
     </div>

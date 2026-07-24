@@ -8,7 +8,7 @@ The site is deliberately simple: projects and blog posts are Markdown files, whi
 
 Most home-page text is in [`_data/profile.yml`](_data/profile.yml). Edit that file in GitHub, click **Commit changes**, and GitHub Pages will publish the update.
 
-The longer About page is [`about.md`](about.md).
+The longer About page is [`about.md`](about.md). The experience timeline is in [`_data/experience.yml`](_data/experience.yml).
 
 ## Add a blog post
 
@@ -27,6 +27,14 @@ The longer About page is [`about.md`](about.md).
 5. Commit the file. It will appear on `/projects/`. Set `featured: true` to also show it on the home page.
 
 Use `order` to control project order: lower numbers appear first.
+
+## Add research or technical writing
+
+1. Copy [`templates/publication.md`](templates/publication.md).
+2. Save it in `_publications`.
+3. Set `kind` and `status` honestly—for example, `Course scientific paper`, `Bachelor's thesis`, or `Manuscript / preprint`.
+4. Add authors, venue, year, and the summary.
+5. Commit the file. It will appear on `/publications/`.
 
 ## Add images
 
@@ -53,8 +61,10 @@ Open `http://localhost:4000`.
 
 ```text
 _data/profile.yml   Home-page text and profile links
+_data/experience.yml Experience timeline
 _posts/             Blog posts
 _projects/          Portfolio entries
+_publications/      Research, papers, and technical reports
 _layouts/           Shared page templates
 _includes/          Header, footer, and cards
 assets/css/         Site design

@@ -1,12 +1,12 @@
-title: Diovandi
-description: "Mechanical engineering, computational design, and practical software."
+title: Diovandi Basheera Putra
+description: "Mechatronics, aerospace systems, computational engineering, and practical software."
 url: "https://diovandi.com"
 baseurl: ""
 lang: en
 timezone: Asia/Jakarta
 
 author:
-  name: Diovandi
+  name: Diovandi Basheera Putra
   url: "https://github.com/diovandi"
 
 permalink: /blog/:year/:month/:day/:title/
@@ -15,6 +15,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
 
 defaults:
   - scope:
@@ -31,6 +34,11 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
 
 plugins:
   - jekyll-feed
