@@ -4,6 +4,7 @@
   var menuToggle = document.querySelector('.menu-toggle');
   var menu = document.querySelector('.site-nav');
   var meta = document.querySelector('meta[name="theme-color"]');
+  var desktopMenuQuery = window.matchMedia('(min-width: 841px)');
 
   function applyTheme(theme) {
     root.dataset.theme = theme;
@@ -29,6 +30,24 @@
   }
 
   if (menuToggle && menu) {
+    function closeMenu() {
+      menu.dataset.open = 'false';
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    function syncMenuMode(event) {
+      if (event.matches) {
+        closeMenu();
+      }
+    }
+
+    closeMenu();
+    if (desktopMenuQuery.addEventListener) {
+      desktopMenuQuery.addEventListener('change', syncMenuMode);
+    } else {
+      desktopMenuQuery.addListener(syncMenuMode);
+    }
+
     menuToggle.addEventListener('click', function () {
       var isOpen = menu.dataset.open === 'true';
       menu.dataset.open = String(!isOpen);
@@ -37,16 +56,16 @@
 
     menu.addEventListener('click', function (event) {
       if (event.target.closest('a')) {
-        menu.dataset.open = 'false';
-        menuToggle.setAttribute('aria-expanded', 'false');
+        closeMenu();
       }
     });
 
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape') {
-        menu.dataset.open = 'false';
-        menuToggle.setAttribute('aria-expanded', 'false');
-        menuToggle.focus();
+        closeMenu();
+        if (!desktopMenuQuery.matches) {
+          menuToggle.focus();
+        }
       }
     });
   }

@@ -9,8 +9,8 @@ description: A timeline spanning teaching, industrial training, mechanical desig
 {% for role in site.data.experience %}
   <article class="timeline-item">
     <div class="timeline-side">
-      <span>{{ role.period }}</span>
-      <span>{{ role.location }}</span>
+      <span class="timeline-period">{{ role.period }}</span>
+      <span class="timeline-location">{{ role.location }}</span>
     </div>
     <div class="timeline-content">
       <p class="timeline-organization">{{ role.organization }}</p>
