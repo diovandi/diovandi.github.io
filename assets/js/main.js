@@ -1,6 +1,8 @@
 (function () {
   var root = document.documentElement;
   var toggle = document.querySelector('.theme-toggle');
+  var menuToggle = document.querySelector('.menu-toggle');
+  var menu = document.querySelector('.site-nav');
   var meta = document.querySelector('meta[name="theme-color"]');
 
   function applyTheme(theme) {
@@ -23,6 +25,29 @@
       var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
       localStorage.setItem('theme', next);
       applyTheme(next);
+    });
+  }
+
+  if (menuToggle && menu) {
+    menuToggle.addEventListener('click', function () {
+      var isOpen = menu.dataset.open === 'true';
+      menu.dataset.open = String(!isOpen);
+      menuToggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+
+    menu.addEventListener('click', function (event) {
+      if (event.target.closest('a')) {
+        menu.dataset.open = 'false';
+        menuToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        menu.dataset.open = 'false';
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.focus();
+      }
     });
   }
 })();

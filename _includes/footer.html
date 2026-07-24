@@ -1,14 +1,15 @@
 <footer class="site-footer">
   <div class="shell footer-inner">
     <div>
-      <strong>{{ site.title }}</strong>
-      <p>Projects, notes, and work in progress.</p>
+      <strong>{{ site.author.name }}</strong>
+      <p>Engineering systems, research, and work in progress.</p>
     </div>
     <div class="footer-links">
       <a href="{{ site.data.profile.github_url }}">GitHub</a>
+      <a href="{{ site.data.profile.linkedin_url }}">LinkedIn</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       <a href="#top">Back to top ↑</a>
     </div>
-    <p class="footer-meta">© {{ 'now' | date: '%Y' }} {{ site.title }}. Built with plain Markdown and GitHub Pages.</p>
+    <p class="footer-meta">© {{ 'now' | date: '%Y' }} {{ site.author.name }}. Built with plain Markdown and GitHub Pages.</p>
   </div>
 </footer>

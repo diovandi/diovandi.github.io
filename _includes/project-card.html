@@ -2,7 +2,7 @@
   <a class="card-link" href="{{ include.project.url | relative_url }}" aria-label="Read about {{ include.project.title }}"></a>
   <div class="card-topline">
     <span class="project-number">0{{ include.index }}</span>
-    {% if include.project.featured %}<span class="project-status">Featured</span>{% endif %}
+    {% if include.project.category %}<span class="project-status">{{ include.project.category }}</span>{% elsif include.project.featured %}<span class="project-status">Featured</span>{% endif %}
   </div>
   <h3>{{ include.project.title }}</h3>
   <p>{{ include.project.summary }}</p>

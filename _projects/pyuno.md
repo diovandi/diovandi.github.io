@@ -1,22 +1,26 @@
 ---
 title: PyUNO
-summary: A Python implementation of the classic UNO card game, built with Pygame.
-featured: true
-order: 2
+summary: A complete single-player card game with AI opponents, tested game logic, responsive Pygame UI, and packaged desktop builds.
+featured: false
+order: 9
 year: 2025
+category: Software
+organization: Fachhochschule Südwestfalen
+role: Group 19 course project with Jonathan Garry Hartono
 stack:
   - Python
   - Pygame
-  - Game development
+  - Object-oriented design
+  - CI packaging
 repository: https://github.com/diovandi/PyUNO
 ---
 
-PyUNO is a playable implementation of the classic card game made with Python and Pygame. It is a compact project centered on clear game rules, state management, and a visual interface.
+PyUNO implements a full game against three AI opponents, including the standard deck, special cards, turn direction, draw and discard piles, color choice, and an interactive “UNO!” quick-time event with penalties.
 
-## What it explores
+The code models cards, decks, players, and the overall game controller as separate classes. Unit tests cover the rule engine before it is connected to the Pygame interface, while the UI scales relative to the window dimensions and dynamically highlights legal moves.
 
-- Translating familiar game rules into maintainable program logic.
-- Managing turn-based state and player interaction.
-- Building a complete visual experience with Pygame.
+## From source to desktop app
 
-See the code and project documentation in the [PyUNO repository](https://github.com/diovandi/PyUNO).
+The repository includes PyInstaller build tooling, a working Windows executable, and automated Linux and macOS builds through GitHub Actions. Cross-platform asset paths, fonts, icons, and fallbacks are handled as part of the packaging workflow.
+
+It began as a Basics in Python course project at FH-SWF and became a compact exercise in state machines, interface feedback, testing, and delivery.

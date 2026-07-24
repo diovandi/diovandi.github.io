@@ -1,0 +1,13 @@
+<article class="publication-card">
+  <div class="publication-topline">
+    <span>{{ include.publication.year }}</span>
+    <span>{{ include.publication.kind }}</span>
+  </div>
+  <h3><a href="{{ include.publication.url | relative_url }}">{{ include.publication.title }}</a></h3>
+  {% if include.publication.authors %}<p class="publication-authors">{{ include.publication.authors }}</p>{% endif %}
+  <p>{{ include.publication.summary }}</p>
+  <div class="publication-meta">
+    {% if include.publication.status %}<span>{{ include.publication.status }}</span>{% endif %}
+    {% if include.publication.venue %}<span>{{ include.publication.venue }}</span>{% endif %}
+  </div>
+</article>

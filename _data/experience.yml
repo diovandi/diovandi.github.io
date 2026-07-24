@@ -1,0 +1,64 @@
+- period: Sep 2025 — present
+  location: Tangerang, Indonesia
+  organization: Swiss German University
+  role: Mechatronics Teaching Assistant
+  summary: Facilitating mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
+  highlights:
+    - Supports labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments.
+    - Assesses reports and quizzes, maintains teaching hardware, and helps prepare demonstrations, manuals, and workshops.
+
+- period: May — Jul 2026
+  location: Cikarang, Indonesia
+  organization: Politeknik Industri ATMI
+  role: Practical Industrial Trainee
+  summary: Completed hands-on industrial training across manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
+  highlights:
+    - Practiced welding, turning, milling, benchwork, and mechanical assembly under workshop safety procedures.
+    - Documented a WPA 50 worm-gearbox teardown and reassembly with attention to serviceability and torque-transfer details.
+
+- period: Jan — Mar 2026
+  location: Remote, Indonesia
+  organization: PT Stratcon Agara Global
+  role: Corporate Development Intern
+  summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
+  highlights:
+    - Developed permit-metadata extraction with Apps Script and Gemini, with human verification in the loop.
+    - Built a Python/Flask WhatsApp bot on Cloud Run for document status and cited Google Drive RAG answers.
+    - Delivered meeting automation and a 67-page SEO, UX, and content audit.
+
+- period: Jun — Jul 2025
+  location: Münster, Germany
+  organization: Deutscher Akkuservice / EproSafe
+  role: Mechanical Engineering Intern
+  summary: Developed CAD changes for fire-resistant battery protection boxes.
+  highlights:
+    - Integrated lock and latch functions into a revised door mechanism.
+    - Designed a stacked mounting system for secure vertical storage of multiple units.
+
+- period: Apr — Jul 2024
+  location: Remote, Indonesia
+  organization: Antarexxa Space Global
+  role: Partnerships & Program Manager Intern
+  summary: Supported student space programs, amateur-rocketry strategy, and K–12 space education.
+  highlights:
+    - Mentored the Bamantara EEPISAT student team on technical requirements for CanSat 2024.
+    - Contributed to an Indonesian amateur-rocketry roadmap and space-education curriculum planning.
+
+- period: Oct 2022 — Sep 2023
+  location: Delft, Netherlands
+  organization: Delft Aerospace Rocket Engineering
+  role: Commissioner of External Relations, 22nd Executive Board
+  summary: Served on the executive board of a 200+ member student rocket society, leading external communications and stakeholder coordination.
+  highlights:
+    - Managed public communication, the website, webshop operations, merchandise, and sponsor relationships.
+    - Conducted feasibility and financial analysis for a CanSat Luxembourg launch-provider bid.
+
+- period: Mar 2021 — Sep 2022
+  location: Delft, Netherlands / Moguer, Spain
+  organization: Stratos IV, Delft Aerospace Rocket Engineering
+  role: Public Relations & Livestream Manager
+  summary: Led launch-campaign communications and built the mission-critical video workflow used for public launch-attempt broadcasts.
+  highlights:
+    - Helped raise more than €15,625 through the Stratos IV crowdfunding campaign.
+    - Designed, tested, integrated, and deployed livestream infrastructure over the INTA CEDEA network.
+    - Coordinated live shows, graphics, media assets, and sponsor deliverables for partners including Airbus, Arianespace, NLR, and Teijin.
