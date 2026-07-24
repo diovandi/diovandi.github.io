@@ -485,6 +485,12 @@ a {
   color: var(--accent);
 }
 
+.project-meta span,
+.publication-meta span {
+  display: inline-flex;
+  align-items: baseline;
+}
+
 .proof-strip {
   border-bottom: 1px solid var(--line);
   background: var(--ink);
