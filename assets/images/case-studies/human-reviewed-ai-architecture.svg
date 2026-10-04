@@ -40,7 +40,7 @@
 
   <rect class="box" x="690" y="270" width="170" height="80" rx="8"/>
   <text class="lbl" x="775" y="305" text-anchor="middle">Chat assistant</text>
-  <text class="sub" x="775" y="327" text-anchor="middle">Flask on Cloud Run</text>
+  <text class="sub" x="775" y="327" text-anchor="middle">Prototype on Cloud Run</text>
 
   <path class="arr" d="M775 140V266"/>
   <path class="arr" d="M740 140L600 266"/>

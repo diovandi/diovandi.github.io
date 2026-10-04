@@ -10,5 +10,5 @@ github_url: https://github.com/diovandi
 linkedin_url: https://www.linkedin.com/in/diovandi/
 # TODO(Dio): uncomment once a test message to dio@diovandi.com arrives reliably.
 # email: dio@diovandi.com
-# TODO(Dio): set to the PDF you choose (Dolphin variant or general CV), e.g. /assets/cv/diovandi-cv.pdf
+# TODO(Dio): set to the PDF you choose (tailored or general CV), e.g. /assets/cv/diovandi-cv.pdf
 cv_pdf:

@@ -14,7 +14,7 @@ A downloadable CV is available on request. Please reach out on [LinkedIn]({{ sit
 ## In short
 
 - **Now:** Strategic Technical Advisor at SAG, since August 2026.
-- **Education:** S.T. in Mechanical Engineering (Mechatronics), Swiss German University; earlier aerospace engineering coursework at TU Delft.
-- **Focus:** mechanical design, robotics, and applied AI for engineering documents and data.
+- **Education:** S.T. in Mechanical Engineering (Mechatronics), Swiss German University, with a double-degree semester at FH Südwestfalen; earlier aerospace engineering coursework at TU Delft.
+- **Focus:** AI-assisted engineering-document and data workflows with human review, grounded in PLC and control systems, mechanical design, and robotics.
 
 The full timeline is on the [Experience]({{ '/experience/' | relative_url }}) page.

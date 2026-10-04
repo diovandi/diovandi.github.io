@@ -1,21 +1,21 @@
 ---
 title: Control & Automation
-summary: Hands-on PLC, HMI, and control-panel work from industrial training at ATMI and the mechatronics laboratories I supported as a teaching assistant.
+summary: Hands-on OMRON PLC programming, HMI, and electrical control-panel work from industrial training at ATMI and the mechatronics laboratories I supported as a teaching assistant.
 order: 6.5
 year: 2026
 category: Automation
 organization: Politeknik Industri ATMI · Swiss German University
 role: Industrial trainee · Teaching assistant
 stack:
-  - PLC
+  - OMRON PLC
+  - Ladder / Structured Text
   - HMI
-  - Pneumatics
   - Control panels
 ---
 
 <!--
   TODO(Dio) before merging:
-  - Add the PLC/HMI platforms you actually used (brand and model) to the stack and text.
+  - Confirm the OMRON PLC model(s) and HMI software you used.
   - Describe the ATMI control-panel exercise in your own words (scope, what you wired or programmed, how it was tested).
   - Add photos you own; remove anyone's face or name you do not have permission to show.
 -->
@@ -24,7 +24,11 @@ Most of my portfolio is software and design. This page collects the hardware sid
 
 ## ATMI control panel
 
-During industrial training at Politeknik Industri ATMI, I worked through electrical safety, PCB assembly, and control-panel practice alongside the machining and assembly modules.
+During a 7-week industrial traineeship at Politeknik Industri ATMI (May to July 2026), I worked on an electrical control panel alongside electrical safety, PCB assembly, CNC, welding, and assembly modules.
+
+## PLC and HMI programming
+
+I program OMRON PLCs in ladder logic and structured text and build HMI screens for them. <!-- TODO(Dio): one or two sentences on a specific program you wrote and how you tested it. -->
 
 <!-- TODO(Dio): photo of the control panel, e.g.
 <figure>
@@ -35,7 +39,7 @@ During industrial training at Politeknik Industri ATMI, I worked through electri
 
 ## Teaching-assistant laboratories
 
-As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I supported laboratories on PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments. That meant helping students debug wiring and ladder logic, maintaining lab hardware, and preparing demonstrations and manuals.
+As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I facilitated PLC and microcontroller labs, and supported experiments with sensors, actuators, robotic arms, pneumatics, and control experiments. That meant grading assessments, helping students troubleshoot hardware, maintaining lab equipment, and preparing demonstrations and manuals.
 
 <!-- TODO(Dio): one or two lab photos you own. -->
 

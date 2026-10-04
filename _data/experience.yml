@@ -1,10 +1,13 @@
-# TODO(Dio): check every period below against the CV PDF before merging.
+# Periods match the current CV (Oct 2026): SAG advisor 08/2026–present,
+# SAG intern 01–03/2026, ATMI 05–07/2026, EproSafe 07–08/2025, SGU TA 09/2025–09/2026.
 - period: Aug 2026 — present
   location: Indonesia  # TODO(Dio): confirm location as written on the CV
   organization: PT Stratcon Agara Global (SAG)
   role: Strategic Technical Advisor
-  # TODO(Dio): replace with the CV wording for this role.
-  summary: Advising on technical strategy and applied AI for engineering documents and data, building on the document workflows developed during the internship.
+  summary: Working on document-control and compliance tooling for import/export and environmental requirements.
+  highlights:
+    - Specified and implemented a versioned document-control and readiness-tracking system on Cloudflare Workers and D1, locally tested.
+    - Developing a checklist-compliance checker for import/export and AMDAL requirements, in trials.
 
 - period: Sep 2025 — Sep 2026
   location: Tangerang, Indonesia
@@ -19,7 +22,7 @@
   location: Cikarang, Indonesia
   organization: Politeknik Industri ATMI
   role: Practical Industrial Trainee
-  summary: Completed hands-on industrial training across manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
+  summary: Completed a 7-week industrial traineeship across electrical control-panel work, manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
   highlights:
     - Practiced welding, turning, milling, benchwork, and mechanical assembly under workshop safety procedures.
     - Documented a WPA 50 worm-gearbox teardown and reassembly with attention to serviceability and torque-transfer details.
@@ -30,11 +33,12 @@
   role: Corporate Development Intern
   summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
   highlights:
-    - Developed permit-metadata extraction with Apps Script and Gemini, with human verification in the loop.
-    - Built a Python/Flask WhatsApp bot on Cloud Run for document status and cited Google Drive RAG answers.
+    - Built an Apps Script and Gemini workflow that extracts permit metadata from Indonesian government documents, with human verification and AppSheet review views.
+    - Prototyped cited document Q&A over Google Drive using Vertex AI Search.
+    - Designed a Python/Flask assistant on Cloud Run for document-status queries; presented to leadership on 2 March 2026.
     - Delivered meeting automation and a 67-page SEO, UX, and content audit.
 
-- period: Jun — Jul 2025
+- period: Jul — Aug 2025
   location: Münster, Germany
   organization: Deutscher Akkuservice / EproSafe
   role: Mechanical Engineering Intern
