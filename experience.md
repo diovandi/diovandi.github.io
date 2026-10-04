@@ -32,17 +32,17 @@ description: A timeline spanning teaching, industrial training, mechanical desig
   <article>
     <span>2023–2026</span>
     <h3>Swiss German University</h3>
-    <p>Mechanical Engineering, Mechatronics concentration. Final thesis on a CAD-integrated mechanical assembly rating tool based on Kinematic Screw Theory.</p>
+    <p>Sarjana Teknik (S.T.), Bachelor of Mechanical Engineering, Mechatronics concentration; completed September 2026. Thesis on a CAD-integrated mechanical assembly rating tool based on Kinematic Screw Theory, graded 93/100.</p>
   </article>
   <article>
     <span>2025</span>
     <h3>Fachhochschule Südwestfalen</h3>
-    <p>International Industrial Engineering semester in Soest through the SGU double-degree pathway.</p>
+    <p>International Industrial Engineering double-degree semester in Soest, February to July 2025, leading to a BEng in Industrial Engineering.</p>
   </article>
   <article>
     <span>2019–2023</span>
     <h3>Delft University of Technology</h3>
-    <p>Coursework toward a BSc in Aerospace Engineering, including aircraft design, structures, and test analysis; credits later transferred to SGU.</p>
+    <p>Coursework toward a BSc in Aerospace Engineering (not completed), including aircraft design, structures, and test analysis; credits later transferred to SGU.</p>
   </article>
 </div>
 
@@ -52,5 +52,7 @@ description: A timeline spanning teaching, industrial training, mechanical desig
   <article><strong>2nd place</strong><span>EBEC Challenge Delft 2023, Case Study category</span></article>
   <article><strong>€15,625+</strong><span>Stratos IV crowdfunding campaign</span></article>
   <article><strong>US$4,000</strong><span>Raised for Education Above All as a high-school fundraising coordinator</span></article>
-  <article><strong>2024–2025</strong><span>Head of Academics, SGU Mechatronics student association</span></article>
+  <article><strong>2024</strong><span>Head of Education &amp; Academics, HMJ Mechatronics (SGU student association)</span></article>
+  <article><strong>Nov 2025</strong><span>Siemens Mechatronic Systems Certification Program (SMSCP), Assistant level</span></article>
+  <article><strong>Nov 2025</strong><span>Mentor at SGU Mechatronics Day</span></article>
 </div>

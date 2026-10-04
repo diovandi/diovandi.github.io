@@ -1,32 +1,45 @@
-- period: Sep 2025 — present
+# Periods match the CV and confirmed records (Oct 2026): SAG advisor from 2026-08-03; SAG intern 2026-01-19 to 03-13;
+# ATMI 2026-05-18 to 07-10; EproSafe 2025-07-21 to 08-16; SGU TA 2025-09-29 to 2026-09-28;
+# DARE board Sep 2022 to Aug 2023; Stratos IV 03/2021 to 10/2022.
+- period: Aug 2026 — present
+  location: Jakarta, Indonesia  # TODO(Dio): work location not recorded; Jakarta assumed from the internship
+  organization: PT Stratcon Agara Global (SAG)
+  role: Strategic Technical Advisor
+  summary: Working on document-control and compliance tooling for import/export and environmental requirements.
+  highlights:
+    - Specified and implemented a versioned document-control and readiness-tracking system on Cloudflare Workers and D1, locally tested.
+    - Developing a checklist-compliance checker for import/export and AMDAL requirements, in trials.
+
+- period: Sep 2025 — Sep 2026
   location: Tangerang, Indonesia
   organization: Swiss German University
   role: Mechatronics Teaching Assistant
-  summary: Facilitating mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
+  summary: Facilitated mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
   highlights:
-    - Supports labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments.
-    - Assesses reports and quizzes, maintains teaching hardware, and helps prepare demonstrations, manuals, and workshops.
+    - Supported labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments, and tutored Differential Equations.
+    - Assessed reports and quizzes, maintained teaching hardware, and helped prepare demonstrations, manuals, and workshops.
 
 - period: May — Jul 2026
   location: Cikarang, Indonesia
   organization: Politeknik Industri ATMI
   role: Practical Industrial Trainee
-  summary: Completed hands-on industrial training across manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
+  summary: Completed a 7-week industrial traineeship across electrical control-panel work, manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
   highlights:
     - Practiced welding, turning, milling, benchwork, and mechanical assembly under workshop safety procedures.
     - Documented a WPA 50 worm-gearbox teardown and reassembly with attention to serviceability and torque-transfer details.
 
 - period: Jan — Mar 2026
-  location: Remote, Indonesia
-  organization: PT Stratcon Agara Global
+  location: Jakarta, Indonesia
+  organization: PT Stratcon Agara Global (SAG)
   role: Corporate Development Intern
   summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
   highlights:
-    - Developed permit-metadata extraction with Apps Script and Gemini, with human verification in the loop.
-    - Built a Python/Flask WhatsApp bot on Cloud Run for document status and cited Google Drive RAG answers.
-    - Delivered meeting automation and a 67-page SEO, UX, and content audit.
+    - Built an Apps Script and Gemini workflow that extracts permit metadata from Indonesian government documents, with human verification and AppSheet review views.
+    - Prototyped cited document Q&A over Google Drive using Vertex AI Search.
+    - Designed a Python/Flask assistant on Cloud Run for document-status queries; presented the architecture to leadership on 2 March 2026.
+    - Built a Whisper-based meeting-transcription pipeline and delivered a 67-page technical, SEO, and UX website audit.
 
-- period: Jun — Jul 2025
+- period: Jul — Aug 2025
   location: Münster, Germany
   organization: Deutscher Akkuservice / EproSafe
   role: Mechanical Engineering Intern
@@ -44,7 +57,7 @@
     - Mentored the Bamantara EEPISAT student team on technical requirements for CanSat 2024.
     - Contributed to an Indonesian amateur-rocketry roadmap and space-education curriculum planning.
 
-- period: Oct 2022 — Sep 2023
+- period: Sep 2022 — Aug 2023
   location: Delft, Netherlands
   organization: Delft Aerospace Rocket Engineering
   role: Commissioner of External Relations, 22nd Executive Board
@@ -53,7 +66,7 @@
     - Managed public communication, the website, webshop operations, merchandise, and sponsor relationships.
     - Conducted feasibility and financial analysis for a CanSat Luxembourg launch-provider bid.
 
-- period: Mar 2021 — Sep 2022
+- period: Mar 2021 — Oct 2022
   location: Delft, Netherlands / Moguer, Spain
   organization: Stratos IV, Delft Aerospace Rocket Engineering
   role: Public Relations & Livestream Manager

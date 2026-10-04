@@ -2,7 +2,7 @@
 title: CAD-Integrated KST Assembly Rating Tool
 summary: A verified Python and Fusion 360 workflow for analyzing how assembly features constrain rigid-body motion.
 featured: true
-order: 1
+order: 2
 year: 2026
 category: Research
 organization: Swiss German University

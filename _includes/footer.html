@@ -7,6 +7,8 @@
     <div class="footer-links">
       <a href="{{ site.data.profile.github_url }}">GitHub</a>
       <a href="{{ site.data.profile.linkedin_url }}">LinkedIn</a>
+      {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">Email</a>{% endif %}
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       <a href="#top">Back to top ↑</a>
     </div>

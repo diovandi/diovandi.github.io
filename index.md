@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Home
-description: "Diovandi builds practical tools across mechanical engineering, computational design, robotics, and software."
+title: Mechatronics engineer
+description: "Diovandi is a mechatronics engineer building practical systems across mechanical design, robotics, and applied AI for engineering documents and data."
 ---
