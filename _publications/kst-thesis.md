@@ -5,7 +5,7 @@ featured: true
 order: 2
 year: 2026
 kind: Bachelor’s thesis
-status: Defended and revised
+status: Completed · graded 93/100
 venue: Swiss German University
 authors: Diovandi Basheera Putra
 repository: https://github.com/diovandi/kst-rating-tool

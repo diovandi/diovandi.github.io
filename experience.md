@@ -32,7 +32,7 @@ description: A timeline spanning teaching, industrial training, mechanical desig
   <article>
     <span>2023–2026</span>
     <h3>Swiss German University</h3>
-    <p>S.T. in Mechanical Engineering, Mechatronics concentration. Final thesis on a CAD-integrated mechanical assembly rating tool based on Kinematic Screw Theory.</p>
+    <p>S.T. in Mechanical Engineering, Mechatronics concentration, completed September 2026. Final thesis on a CAD-integrated mechanical assembly rating tool based on Kinematic Screw Theory.</p>
   </article>
   <article>
     <span>2025</span>
