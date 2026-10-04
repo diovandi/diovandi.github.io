@@ -7,15 +7,14 @@ category: Automation
 organization: Politeknik Industri ATMI · Swiss German University
 role: Industrial trainee · Teaching assistant
 stack:
-  - OMRON PLC
-  - Ladder / Structured Text
+  - OMRON PLC / CX-One
+  - Ladder, ST, FBD
   - HMI
-  - Control panels
+  - Siemens SMSCP
 ---
 
 <!--
   TODO(Dio) before merging:
-  - Confirm the OMRON PLC model(s) and HMI software you used.
   - Describe the ATMI control-panel exercise in your own words (scope, what you wired or programmed, how it was tested).
   - Add photos you own; remove anyone's face or name you do not have permission to show.
 -->
@@ -28,7 +27,7 @@ During a 7-week industrial traineeship at Politeknik Industri ATMI (May to July 
 
 ## PLC and HMI programming
 
-I program OMRON PLCs in ladder logic and structured text and build HMI screens for them. <!-- TODO(Dio): one or two sentences on a specific program you wrote and how you tested it. -->
+I program OMRON PLCs in CX-One using ladder diagrams, structured text, and function block diagrams, and build HMI screens for them. I use sequential function charts to plan a program before writing it. In November 2025 I earned the Siemens Mechatronic Systems Certification Program (SMSCP) certificate at Assistant level. <!-- TODO(Dio): one or two sentences on a specific program you wrote and how you tested it. -->
 
 <!-- TODO(Dio): photo of the control panel, e.g.
 <figure>
@@ -39,7 +38,7 @@ I program OMRON PLCs in ladder logic and structured text and build HMI screens f
 
 ## Teaching-assistant laboratories
 
-As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I facilitated PLC and microcontroller labs, and supported experiments with sensors, actuators, robotic arms, pneumatics, and control experiments. That meant grading assessments, helping students troubleshoot hardware, maintaining lab equipment, and preparing demonstrations and manuals.
+As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I facilitated PLC and microcontroller labs, and supported experiments with sensors, actuators, robotic arms, pneumatics, and control experiments. I also tutored Differential Equations and mentored teams at SGU Mechatronics Day 2025. The work meant grading assessments, helping students troubleshoot hardware, maintaining lab equipment, and preparing demonstrations and manuals.
 
 <!-- TODO(Dio): one or two lab photos you own. -->
 

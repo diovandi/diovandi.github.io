@@ -16,7 +16,6 @@ stack:
 <!--
   TODO(Dio) before merging:
   - Confirm with SAG that a redacted version may be published.
-  - Deployment statuses follow the CV wording (built / prototyped / in trials); check against SAG records.
   - Confirm the contribution statement, and name anything that was a teammate's.
   - Add 2–3 redacted screenshots (no client names, permit numbers, or people).
 -->
@@ -45,11 +44,12 @@ AI does the reading; people make the decisions. The system extracts metadata, fl
 
 | Component | Status |
 | --- | --- |
-| Permit metadata extraction (Apps Script + Gemini) with human verification and AppSheet review views | Built; not rolled out at scale |
+| Permit metadata extraction (Apps Script + Gemini 2.0 Flash) with human verification and AppSheet review views | Built; production deployment was pending when the internship ended in March 2026 |
 | Cited document Q&A over Google Drive (Vertex AI Search) | Prototyped |
 | Document-status assistant (Python/Flask on Cloud Run, via WhatsApp) | Designed and presented; live use not verified |
-| Versioned document-control and readiness tracking (Cloudflare Workers + D1) | Implemented and locally tested |
-| Checklist-compliance checker for import/export and environmental (AMDAL) requirements | In trials |
+| Versioned document-control and readiness tracking (Cloudflare Workers + D1) | Implemented and locally tested; production acceptance not yet confirmed |
+| Checklist-compliance checker for import/export and environmental (AMDAL) requirements | In trials; not yet used by real users |
+| Meeting-transcription pipeline (Whisper) | Built |
 
 There is no measured time-saving baseline yet, so this page makes no efficiency claims. The work was presented to company leadership on 2 March 2026.
 
