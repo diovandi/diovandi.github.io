@@ -1,11 +1,19 @@
-- period: Sep 2025 — present
+# TODO(Dio): check every period below against the CV PDF before merging.
+- period: Aug 2026 — present
+  location: Indonesia  # TODO(Dio): confirm location as written on the CV
+  organization: PT Stratcon Agara Global (SAG)
+  role: Strategic Technical Advisor
+  # TODO(Dio): replace with the CV wording for this role.
+  summary: Advising on technical strategy and applied AI for engineering documents and data, building on the document workflows developed during the internship.
+
+- period: Sep 2025 — Sep 2026
   location: Tangerang, Indonesia
   organization: Swiss German University
   role: Mechatronics Teaching Assistant
-  summary: Facilitating mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
+  summary: Facilitated mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
   highlights:
-    - Supports labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments.
-    - Assesses reports and quizzes, maintains teaching hardware, and helps prepare demonstrations, manuals, and workshops.
+    - Supported labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments.
+    - Assessed reports and quizzes, maintained teaching hardware, and helped prepare demonstrations, manuals, and workshops.
 
 - period: May — Jul 2026
   location: Cikarang, Indonesia
@@ -18,7 +26,7 @@
 
 - period: Jan — Mar 2026
   location: Remote, Indonesia
-  organization: PT Stratcon Agara Global
+  organization: PT Stratcon Agara Global (SAG)
   role: Corporate Development Intern
   summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
   highlights:

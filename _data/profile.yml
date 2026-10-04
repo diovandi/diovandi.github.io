@@ -1,9 +1,14 @@
 name: Diovandi
-eyebrow: Mechatronics · aerospace · computational engineering
+eyebrow: Mechanical design · robotics · applied AI
 headline: I turn complex engineering problems into practical systems.
 intro: >
   I am a mechatronics engineer working across mechanical design, robotics,
-  aerospace projects, automation, and AI-enabled engineering tools.
-availability: Final-year SGU mechatronics candidate, teaching assistant, and builder of engineering tools.
+  and applied AI for engineering documents and data, with roots in
+  aerospace projects and automation.
+availability: Mechatronics engineer (S.T., SGU) and Strategic Technical Advisor at SAG.
 github_url: https://github.com/diovandi
 linkedin_url: https://www.linkedin.com/in/diovandi/
+# TODO(Dio): uncomment once a test message to dio@diovandi.com arrives reliably.
+# email: dio@diovandi.com
+# TODO(Dio): set to the PDF you choose (Dolphin variant or general CV), e.g. /assets/cv/diovandi-cv.pdf
+cv_pdf:
