@@ -1,6 +1,7 @@
 ---
 title: D09 Large Passenger Aircraft Design
 summary: A five-work-package TU Delft aircraft-design project spanning sizing, aerodynamics, load cases, wing structures, damage tolerance, and aileron reversal.
+description: A five-work-package TU Delft aircraft-design project spanning sizing, aerodynamics, load cases, wing structures, damage tolerance, and aileron reversal.
 featured: true
 order: 4
 year: 2020

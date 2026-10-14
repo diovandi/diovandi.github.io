@@ -1,6 +1,7 @@
 ---
 title: WPA 50 Gearbox Reverse Engineering
 summary: A documented teardown and reassembly of a 50:1 worm reducer, connecting component inspection to assembly sequence and serviceability.
+description: A documented teardown and reassembly of a 50:1 worm reducer, connecting component inspection to assembly sequence and serviceability.
 order: 10
 year: 2026
 category: Manufacturing

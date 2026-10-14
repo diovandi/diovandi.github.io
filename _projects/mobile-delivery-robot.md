@@ -1,6 +1,7 @@
 ---
 title: Mobile Delivery Robot
 summary: A team-built autonomous delivery-robot prototype with a custom frame, steering system, cup-handling mechanism, electronics, and 3D-printed interfaces.
+description: A team-built autonomous delivery-robot prototype with a custom frame, steering system, cup-handling mechanism, electronics, and 3D-printed interfaces.
 order: 12
 year: 2024
 category: Mechatronics

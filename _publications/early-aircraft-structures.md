@@ -1,6 +1,7 @@
 ---
 title: Wing Box and Launcher Compression Panel Design Reports
 summary: Early aerospace structures projects combining analytical sizing, manufacturing plans, test-data interpretation, and design recommendations.
+description: Early aerospace structures projects combining analytical sizing, manufacturing plans, test-data interpretation, and design recommendations.
 featured: false
 order: 5
 year: 2020

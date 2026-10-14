@@ -6,13 +6,18 @@
     <meta name="theme-color" content="#f3f0e8">
     <script>
       (function () {
-        var saved = localStorage.getItem('theme');
+        var saved = null;
+        try { saved = localStorage.getItem('theme'); } catch (e) {}
         var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         document.documentElement.dataset.theme = saved || preferred;
       })();
     </script>
     {% seo %}
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="icon" href="{{ '/assets/images/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
     {% feed_meta %}
+    {% if page.url == '/' or page.url == '/about/' %}{% include person-schema.html %}{% endif %}
     {% assign asset_version = site.time | date: "%s" %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
