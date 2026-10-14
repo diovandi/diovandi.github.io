@@ -1,32 +1,47 @@
-- period: Sep 2025 — present
+# Periods match the general CV of 14 Oct 2026 (DBP_CV_General.pdf).
+- period: Aug — Oct 2026
+  location: Remote/hybrid, Indonesia
+  organization: PT Stratcon Agara Global (SAG)
+  role: Strategic Technical Advisor
+  summary: Built internal software and AI tooling for an advisory and project-development firm, from compliance document control to the office's procurement app.
+  highlights:
+    - Built a document-control system for compliance projects on Cloudflare Workers and D1, with approvals, revisions, readiness tracking, Excel checklist import and Google Drive storage; built and tested locally.
+    - Contributed to the office's live procurement and budget app through reviewed pull requests, including monthly budget pots, a compact bilingual UI, CI fixes, a deploy guard and shared working rules for people and AI coding agents.
+    - Built a checklist-compliance checker for import/export and AMDAL environmental requirements, taken to trial stage.
+    - Authored Claude skills for on-brand company documents and meeting minutes, and curated a knowledge graph of company material with integrity checks.
+    - Reviewed an internal request-tracking application for security and quality and delivered written findings.
+
+- period: Sep 2025 — Sep 2026
   location: Tangerang, Indonesia
   organization: Swiss German University
   role: Mechatronics Teaching Assistant
-  summary: Facilitating mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
+  summary: Facilitated mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
   highlights:
-    - Supports labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments.
-    - Assesses reports and quizzes, maintains teaching hardware, and helps prepare demonstrations, manuals, and workshops.
+    - Supported labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments, and tutored Differential Equations.
+    - Assessed reports and quizzes, maintained teaching hardware, and helped prepare demonstrations, manuals, and workshops.
 
 - period: May — Jul 2026
   location: Cikarang, Indonesia
   organization: Politeknik Industri ATMI
   role: Practical Industrial Trainee
-  summary: Completed hands-on industrial training across manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
+  summary: Completed a 7-week industrial traineeship across electrical control-panel work, manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
   highlights:
+    - Built electrical control panels and completed electrical safety training.
     - Practiced welding, turning, milling, benchwork, and mechanical assembly under workshop safety procedures.
     - Documented a WPA 50 worm-gearbox teardown and reassembly with attention to serviceability and torque-transfer details.
 
 - period: Jan — Mar 2026
-  location: Remote, Indonesia
-  organization: PT Stratcon Agara Global
+  location: South Tangerang, Indonesia
+  organization: PT Stratcon Agara Global (SAG)
   role: Corporate Development Intern
   summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
   highlights:
-    - Developed permit-metadata extraction with Apps Script and Gemini, with human verification in the loop.
-    - Built a Python/Flask WhatsApp bot on Cloud Run for document status and cited Google Drive RAG answers.
-    - Delivered meeting automation and a 67-page SEO, UX, and content audit.
+    - Built an Apps Script and Gemini workflow that extracts permit metadata from Indonesian government documents, with human verification and AppSheet review views.
+    - Prototyped cited document Q&A over Google Drive using Vertex AI Search.
+    - Designed a Python/Flask assistant on Cloud Run for document-status queries; presented the architecture to leadership on 2 March 2026.
+    - Built a Whisper-based meeting-transcription pipeline and delivered a 67-page technical, SEO, and UX website audit.
 
-- period: Jun — Jul 2025
+- period: Jul — Aug 2025
   location: Münster, Germany
   organization: Deutscher Akkuservice / EproSafe
   role: Mechanical Engineering Intern
@@ -34,6 +49,8 @@
   highlights:
     - Integrated lock and latch functions into a revised door mechanism.
     - Designed a stacked mounting system for secure vertical storage of multiple units.
+    - Reverse-engineered parts from legacy drawings and proposed a common front-plate arrangement to reduce SKU complexity.
+    - Spot-welded 18650 cells for e-bike replacement battery packs.
 
 - period: Apr — Jul 2024
   location: Remote, Indonesia

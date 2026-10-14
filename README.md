@@ -50,6 +50,13 @@ Keep images reasonably small (ideally under 500 KB) so the site stays fast.
 
 Use [`CONTENT_CHECKLIST.md`](CONTENT_CHECKLIST.md) to collect project images, engineering evidence, publication details, permissions, and profile material. It includes a dedicated D03 morphing-leading-edge checklist.
 
+## Search and sharing
+
+- Page titles, descriptions, Open Graph tags and the sitemap come from `jekyll-seo-tag` and `jekyll-sitemap`. Give every page a `description` of about 150 characters.
+- The default share image is `assets/images/og-card.png` (1200 × 630). A page can override it with `image:` in its front matter.
+- Person structured data for the home and About pages lives in `_includes/person-schema.html`.
+- To verify the site in Google Search Console, paste the HTML-tag token into `google_site_verification` in `_config.yml`, then submit `https://diovandi.com/sitemap.xml`.
+
 ## Preview locally (optional)
 
 Install Ruby and Bundler, then run:

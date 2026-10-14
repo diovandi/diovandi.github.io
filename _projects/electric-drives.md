@@ -1,6 +1,7 @@
 ---
 title: DC & AC Electric Drive Control
 summary: Reproducible MATLAB/Simulink studies of DC motor control and induction-motor indirect field-oriented control.
+description: Reproducible MATLAB/Simulink studies of DC motor control and induction-motor indirect field-oriented control.
 order: 7
 year: 2026
 category: Controls

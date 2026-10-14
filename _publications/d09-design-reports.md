@@ -1,6 +1,7 @@
 ---
 title: Group D09 Large Passenger Aircraft Design Reports
 summary: A five-work-package aircraft design and wing-structure report series developed through TU Delft’s Aerospace Design & Systems Engineering course.
+description: A five-work-package aircraft design and wing-structure report series developed through TU Delft’s Aerospace Design & Systems Engineering course.
 featured: false
 order: 4
 year: 2020

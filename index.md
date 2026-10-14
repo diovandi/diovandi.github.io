@@ -1,5 +1,4 @@
 ---
 layout: home
-title: Home
-description: "Diovandi builds practical tools across mechanical engineering, computational design, robotics, and software."
+description: "Mechatronics engineer in Doha and South Tangerang working on PLC and control systems, mechanical design, and applied AI for engineering documents and data."
 ---

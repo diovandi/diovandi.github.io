@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="t d" font-family="Manrope, system-ui, sans-serif">
+  <title id="t">Human-reviewed AI document workflow</title>
+  <desc id="d">Documents in shared drives are read by an AI extraction step. Low-confidence results go to a human reviewer before approved metadata is stored. Staff query the approved records and the source documents through a dashboard and a chat bot that answers with citations.</desc>
+  <style>
+    .box{fill:#faf8f2;stroke:#172019;stroke-width:1.5}
+    .hl{fill:#fde7df;stroke:#e94e2d;stroke-width:2}
+    .lbl{font-size:15px;font-weight:700;fill:#172019}
+    .sub{font-size:12px;fill:#566057}
+    .arr{stroke:#172019;stroke-width:1.5;fill:none;marker-end:url(#a)}
+    .dash{stroke-dasharray:5 4}
+    .note{font-size:12px;fill:#e94e2d;font-weight:600}
+  </style>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#172019"/></marker></defs>
+  <rect width="880" height="420" fill="#f3f0e8"/>
+
+  <rect class="box" x="20" y="60" width="170" height="80" rx="8"/>
+  <text class="lbl" x="105" y="95" text-anchor="middle">Source documents</text>
+  <text class="sub" x="105" y="117" text-anchor="middle">Shared Drives by group</text>
+
+  <rect class="box" x="250" y="60" width="170" height="80" rx="8"/>
+  <text class="lbl" x="335" y="95" text-anchor="middle">AI extraction</text>
+  <text class="sub" x="335" y="117" text-anchor="middle">Apps Script + Gemini</text>
+
+  <rect class="hl" x="480" y="60" width="170" height="80" rx="8"/>
+  <text class="lbl" x="565" y="95" text-anchor="middle">Human review</text>
+  <text class="sub" x="565" y="117" text-anchor="middle">Uncertain fields checked</text>
+
+  <rect class="box" x="690" y="60" width="170" height="80" rx="8"/>
+  <text class="lbl" x="775" y="95" text-anchor="middle">Approved records</text>
+  <text class="sub" x="775" y="117" text-anchor="middle">Structured metadata</text>
+
+  <path class="arr" d="M190 100H246"/>
+  <path class="arr" d="M420 100H476"/>
+  <path class="arr" d="M650 100H686"/>
+  <text class="note" x="565" y="40" text-anchor="middle">Nothing is approved without a person</text>
+
+  <rect class="box" x="480" y="270" width="170" height="80" rx="8"/>
+  <text class="lbl" x="565" y="305" text-anchor="middle">Dashboard</text>
+  <text class="sub" x="565" y="327" text-anchor="middle">AppSheet status views</text>
+
+  <rect class="box" x="690" y="270" width="170" height="80" rx="8"/>
+  <text class="lbl" x="775" y="305" text-anchor="middle">Chat assistant</text>
+  <text class="sub" x="775" y="327" text-anchor="middle">Prototype on Cloud Run</text>
+
+  <path class="arr" d="M775 140V266"/>
+  <path class="arr" d="M740 140L600 266"/>
+  <path class="arr dash" d="M105 140V380H775V354"/>
+  <text class="sub" x="300" y="372">Retrieval over source files: every answer cites its document</text>
+
+  <rect class="box" x="250" y="270" width="170" height="80" rx="8"/>
+  <text class="lbl" x="335" y="305" text-anchor="middle">Staff</text>
+  <text class="sub" x="335" y="327" text-anchor="middle">Use familiar tools</text>
+  <path class="arr" d="M420 310H476"/>
+  <path class="arr" d="M420 290C520 230 640 230 700 268"/>
+</svg>

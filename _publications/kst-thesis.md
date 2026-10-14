@@ -1,11 +1,12 @@
 ---
 title: Implementation of Mechanical Assembly Rating Tool Based on Kinematic Screw Theory
 summary: A bachelor’s thesis covering Python migration, CAD-connected data, higher-order constraints, verification, optimization, and interpretable outputs.
+description: A bachelor’s thesis covering Python migration, CAD-connected data, higher-order constraints, verification, optimization, and interpretable outputs.
 featured: true
 order: 2
 year: 2026
 kind: Bachelor’s thesis
-status: Defended and revised
+status: Completed · graded 93/100
 venue: Swiss German University
 authors: Diovandi Basheera Putra
 repository: https://github.com/diovandi/kst-rating-tool

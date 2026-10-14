@@ -1,6 +1,7 @@
 ---
 title: CanSat & Space Program Development
 summary: Technical mentoring, launch-provider feasibility work, amateur-rocketry strategy, and K–12 space-education planning.
+description: Technical mentoring, launch-provider feasibility work, amateur-rocketry strategy, and K–12 space-education planning.
 order: 11
 year: 2023–2024
 category: Aerospace

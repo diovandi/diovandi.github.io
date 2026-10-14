@@ -1,6 +1,7 @@
 ---
 title: EproSafe Battery Protection Box Redesign
 summary: CAD changes to improve locking, latching, and vertical stacking for fire-resistant battery protection units.
+description: CAD changes to improve locking, latching, and vertical stacking for fire-resistant battery protection units.
 order: 6
 year: 2025
 category: Mechanical design

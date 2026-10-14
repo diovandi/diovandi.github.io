@@ -1,6 +1,7 @@
 ---
 title: PINN vs MMC Fastener Optimization
 summary: A comparative research implementation for fastener-placement optimization across differentiable-physics and topology-based methods.
+description: A comparative research implementation for fastener-placement optimization across differentiable-physics and topology-based methods.
 order: 8
 year: 2025
 category: Computational

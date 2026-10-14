@@ -24,7 +24,7 @@
   if (toggle) {
     toggle.addEventListener('click', function () {
       var next = root.dataset.theme === 'dark' ? 'light' : 'dark';
-      localStorage.setItem('theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
       applyTheme(next);
     });
   }

@@ -1,13 +1,30 @@
 title: Diovandi Basheera Putra
-description: "Mechatronics, aerospace systems, computational engineering, and practical software."
+tagline: Mechatronics Engineer & AI Solutions Builder
+description: "Mechatronics engineer in Doha and South Tangerang working on PLC and control systems, mechanical design, and applied AI for engineering documents and data."
 url: "https://diovandi.com"
 baseurl: ""
 lang: en
-timezone: Asia/Jakarta
+locale: en_US
+timezone: Asia/Qatar
 
 author:
   name: Diovandi Basheera Putra
-  url: "https://github.com/diovandi"
+  url: "https://diovandi.com/about/"
+
+# Default social-share image (1200 x 630); set per page in `defaults` below.
+image: /assets/images/og-card.png
+
+social:
+  name: Diovandi Basheera Putra
+  links:
+    - https://www.linkedin.com/in/diovandi/
+    - https://github.com/diovandi
+
+twitter:
+  card: summary_large_image
+
+# Paste the token from Google Search Console (HTML tag method) here.
+# google_site_verification: ""
 
 permalink: /blog/:year/:month/:day/:title/
 
@@ -24,6 +41,7 @@ defaults:
       path: ""
     values:
       layout: page
+      image: /assets/images/og-card.png
   - scope:
       path: ""
       type: posts
@@ -52,5 +70,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CONTENT_CHECKLIST.md
+  - LICENSE.md
   - templates
   - vendor

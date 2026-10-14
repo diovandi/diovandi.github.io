@@ -15,6 +15,7 @@ layout: default
     <aside class="hero-note" aria-label="Current note">
       <span class="note-label">Currently</span>
       <p>{{ site.data.profile.availability }}</p>
+      {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>{% endif %}
       <a href="{{ site.data.profile.linkedin_url }}">Connect on LinkedIn ↗</a>
     </aside>
   </div>
