@@ -8,6 +8,6 @@ description: Papers, thesis work, and selected technical reports. Course papers 
 <div class="publication-list publication-index">
 {% assign sorted_publications = site.publications | sort: "order" %}
 {% for publication in sorted_publications %}
-  {% include publication-card.html publication=publication %}
+  {% include publication-card.html publication=publication heading="h2" %}
 {% endfor %}
 </div>
