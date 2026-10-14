@@ -1,0 +1,5 @@
+Manrope (Mikhail Sharanda) and DM Mono (Colophon Foundry) are licensed under
+the SIL Open Font License, Version 1.1: https://openfontlicense.org/
+
+These are the Latin subsets served by Google Fonts, self-hosted so pages do
+not wait on a third-party stylesheet before rendering.

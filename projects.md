@@ -10,6 +10,6 @@ description: Engineering systems, research implementations, aerospace work, and 
 <div class="project-grid project-index">
 {% assign sorted_projects = site.projects | sort: "order" %}
 {% for project in sorted_projects %}
-  {% include project-card.html project=project index=forloop.index %}
+  {% include project-card.html project=project index=forloop.index heading="h2" %}
 {% endfor %}
 </div>
