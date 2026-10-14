@@ -1,6 +1,7 @@
 ---
 title: D03 Morphing Leading-Edge Analysis
 summary: Experimental and numerical evaluation of TU Delft's LeaTop morphing-wing demonstrator using strain data, FEM, photogrammetry, and energy analysis.
+description: Experimental and numerical evaluation of TU Delft's LeaTop morphing-wing demonstrator using strain data, FEM, photogrammetry, and energy analysis.
 featured: true
 order: 4.5
 year: 2022

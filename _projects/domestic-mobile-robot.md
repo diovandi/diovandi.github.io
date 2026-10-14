@@ -1,6 +1,7 @@
 ---
 title: Domestic Mobile Robot
 summary: A complete ROS 2 navigation pipeline for a simulated service robot, from custom robot design and SLAM to Nav2 patrol analysis.
+description: A complete ROS 2 navigation pipeline for a simulated service robot, from custom robot design and SLAM to Nav2 patrol analysis.
 featured: true
 order: 3
 year: 2025

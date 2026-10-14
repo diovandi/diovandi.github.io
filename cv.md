@@ -13,7 +13,7 @@ A downloadable CV is available on request. Please reach out on [LinkedIn]({{ sit
 
 ## In short
 
-- **Now:** Strategic Technical Advisor at SAG, since August 2026.
+- **Recent:** Strategic Technical Advisor at SAG, August to October 2026. Open to engineering, automation and AI roles from November 2026, in Doha, South Tangerang or remote.
 - **Education:** S.T. in Mechanical Engineering (Mechatronics), Swiss German University, with a double-degree semester at FH Südwestfalen; earlier aerospace engineering coursework at TU Delft.
 - **Focus:** AI-assisted engineering-document and data workflows with human review, grounded in PLC and control systems, mechanical design, and robotics.
 

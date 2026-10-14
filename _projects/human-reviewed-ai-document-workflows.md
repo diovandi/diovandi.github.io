@@ -56,7 +56,7 @@ There is no measured time-saving baseline yet, so this page makes no efficiency 
 ## My contribution
 
 <!-- TODO(Dio): confirm this sentence. -->
-I built the permit-extraction workflow with its human-review step and AppSheet views, prototyped the cited Q&A, and designed the document-status assistant during my internship (January to March 2026). As Strategic Technical Advisor since August 2026, I specified and implemented the document-control system and am developing the compliance checker.
+I built the permit-extraction workflow with its human-review step and AppSheet views, prototyped the cited Q&A, and designed the document-status assistant during my internship (January to March 2026). As Strategic Technical Advisor from August to October 2026, I specified and implemented the document-control system and took the compliance checker to trials.
 
 ## Lessons
 

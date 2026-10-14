@@ -1,6 +1,7 @@
 ---
 title: Stratos IV Launch Campaign
 summary: Public communications, crowdfunding, and mission-critical livestream infrastructure for DARE’s Stratos IV student rocket.
+description: Public communications, crowdfunding, and mission-critical livestream infrastructure for DARE’s Stratos IV student rocket.
 order: 5
 year: 2021–2022
 category: Aerospace

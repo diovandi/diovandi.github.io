@@ -1,6 +1,7 @@
 ---
 title: PyUNO
 summary: A complete single-player card game with AI opponents, tested game logic, responsive Pygame UI, and packaged desktop builds.
+description: A complete single-player card game with AI opponents, tested game logic, responsive Pygame UI, and packaged desktop builds.
 featured: false
 order: 9
 year: 2025

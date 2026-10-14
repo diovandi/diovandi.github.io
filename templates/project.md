@@ -1,6 +1,7 @@
 ---
 title: Project name
 summary: A short description shown on the project cards.
+description: The same sentence, used by search engines (about 150 characters).
 featured: true
 order: 3
 year: 2026

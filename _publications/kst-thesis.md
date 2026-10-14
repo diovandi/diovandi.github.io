@@ -1,6 +1,7 @@
 ---
 title: Implementation of Mechanical Assembly Rating Tool Based on Kinematic Screw Theory
 summary: A bachelor’s thesis covering Python migration, CAD-connected data, higher-order constraints, verification, optimization, and interpretable outputs.
+description: A bachelor’s thesis covering Python migration, CAD-connected data, higher-order constraints, verification, optimization, and interpretable outputs.
 featured: true
 order: 2
 year: 2026

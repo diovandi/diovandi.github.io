@@ -1,6 +1,7 @@
 ---
 title: Mechanical Analysis of the Morphing Leading Edge Concept
 summary: An experimental and numerical assessment of a LeaTop morphing-wing demonstrator using strain data, FEM, photogrammetry, and energy analysis.
+description: An experimental and numerical assessment of a LeaTop morphing-wing demonstrator using strain data, FEM, photogrammetry, and energy analysis.
 featured: true
 order: 3
 year: 2022

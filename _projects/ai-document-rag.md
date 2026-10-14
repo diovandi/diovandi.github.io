@@ -1,6 +1,7 @@
 ---
 title: AI-Assisted Document Management & RAG
 summary: A human-in-the-loop document workflow combining structured extraction, operational dashboards, status queries, and cited Drive-based answers.
+description: A human-in-the-loop document workflow combining structured extraction, operational dashboards, status queries, and cited Drive-based answers.
 featured: true
 order: 1
 year: 2026

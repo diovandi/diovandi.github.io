@@ -325,6 +325,16 @@ a {
   font-size: 0.95rem;
 }
 
+.hero-note a {
+  display: block;
+  width: fit-content;
+  margin-top: 8px;
+}
+
+.hero-note a[href^="mailto:"] {
+  text-transform: none;
+}
+
 .hero-note a,
 .text-link,
 .back-link {

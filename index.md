@@ -1,5 +1,4 @@
 ---
 layout: home
-title: Mechatronics engineer
-description: "Diovandi is a mechatronics engineer building practical systems across mechanical design, robotics, and applied AI for engineering documents and data."
+description: "Mechatronics engineer in Doha and South Tangerang working on PLC and control systems, mechanical design, and applied AI for engineering documents and data."
 ---

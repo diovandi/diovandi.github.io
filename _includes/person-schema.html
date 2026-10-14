@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": "{{ site.author.name }}",
+  "alternateName": "Diovandi",
+  "givenName": "Diovandi Basheera",
+  "familyName": "Putra",
+  "jobTitle": "Mechatronics Engineer",
+  "description": {{ site.description | jsonify }},
+  "url": "{{ site.url }}/",
+  "image": "{{ site.image | absolute_url }}",
+  {% if site.data.profile.email %}"email": "mailto:{{ site.data.profile.email }}",{% endif %}
+  "nationality": { "@type": "Country", "name": "Indonesia" },
+  "homeLocation": [
+    { "@type": "Place", "name": "Doha, Qatar" },
+    { "@type": "Place", "name": "South Tangerang, Indonesia" }
+  ],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Swiss German University", "url": "https://sgu.ac.id" },
+    { "@type": "CollegeOrUniversity", "name": "Fachhochschule Südwestfalen", "url": "https://www.fh-swf.de" },
+    { "@type": "CollegeOrUniversity", "name": "Delft University of Technology", "url": "https://www.tudelft.nl" }
+  ],
+  "knowsAbout": [
+    "Mechatronics",
+    "PLC programming",
+    "Industrial automation",
+    "Control systems",
+    "Mechanical design",
+    "CAD",
+    "Kinematic screw theory",
+    "ROS 2",
+    "Python",
+    "Retrieval-augmented generation",
+    "Cloudflare Workers",
+    "Google Cloud"
+  ],
+  "knowsLanguage": ["English", "Indonesian", "German"],
+  "sameAs": [
+    "{{ site.data.profile.linkedin_url }}",
+    "{{ site.data.profile.github_url }}"
+  ]
+}
+</script>

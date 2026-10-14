@@ -1,14 +1,17 @@
-# Periods match the CV and confirmed records (Oct 2026): SAG advisor from 2026-08-03; SAG intern 2026-01-19 to 03-13;
+# Periods match the CV and confirmed records (Oct 2026): SAG advisor 2026-08-03 to Oct 2026; SAG intern 2026-01-19 to 03-13;
 # ATMI 2026-05-18 to 07-10; EproSafe 2025-07-21 to 08-16; SGU TA 2025-09-29 to 2026-09-28;
 # DARE board Sep 2022 to Aug 2023; Stratos IV 03/2021 to 10/2022.
-- period: Aug 2026 — present
-  location: Jakarta, Indonesia  # TODO(Dio): work location not recorded; Jakarta assumed from the internship
+- period: Aug — Oct 2026
+  location: South Tangerang, Indonesia (hybrid)
   organization: PT Stratcon Agara Global (SAG)
   role: Strategic Technical Advisor
-  summary: Working on document-control and compliance tooling for import/export and environmental requirements.
+  summary: Built internal software and AI tooling for an advisory and project-development firm, from compliance document control to the office's procurement app.
   highlights:
-    - Specified and implemented a versioned document-control and readiness-tracking system on Cloudflare Workers and D1, locally tested.
-    - Developing a checklist-compliance checker for import/export and AMDAL requirements, in trials.
+    - Built a document-control system for compliance projects on Cloudflare Workers and D1, with approvals, revisions, readiness tracking, Excel checklist import and Google Drive storage; built and tested locally.
+    - Contributed to the office's live procurement and budget app through reviewed pull requests, including monthly budget pots, a compact bilingual UI, CI fixes, a deploy guard and shared working rules for people and AI coding agents.
+    - Built a checklist-compliance checker for import/export and AMDAL environmental requirements, taken to trial stage.
+    - Authored Claude skills for on-brand company documents and meeting minutes, and curated a knowledge graph of company material with integrity checks.
+    - Reviewed an internal request-tracking application for security and quality and delivered written findings.
 
 - period: Sep 2025 — Sep 2026
   location: Tangerang, Indonesia
@@ -25,11 +28,12 @@
   role: Practical Industrial Trainee
   summary: Completed a 7-week industrial traineeship across electrical control-panel work, manufacturing, electrical safety, PCB assembly, CAD, reverse engineering, rapid prototyping, and CNC milling.
   highlights:
+    - Built electrical control panels and completed electrical safety training.
     - Practiced welding, turning, milling, benchwork, and mechanical assembly under workshop safety procedures.
     - Documented a WPA 50 worm-gearbox teardown and reassembly with attention to serviceability and torque-transfer details.
 
 - period: Jan — Mar 2026
-  location: Jakarta, Indonesia
+  location: South Tangerang, Indonesia
   organization: PT Stratcon Agara Global (SAG)
   role: Corporate Development Intern
   summary: Built AI-assisted document and knowledge workflows for operational retrieval, governance, and management decision support.
@@ -47,6 +51,8 @@
   highlights:
     - Integrated lock and latch functions into a revised door mechanism.
     - Designed a stacked mounting system for secure vertical storage of multiple units.
+    - Reverse-engineered parts from legacy drawings and proposed a common front-plate arrangement to reduce SKU complexity.
+    - Spot-welded 18650 cells for e-bike replacement battery packs.
 
 - period: Apr — Jul 2024
   location: Remote, Indonesia
