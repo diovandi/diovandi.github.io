@@ -12,5 +12,4 @@ availability: >
 github_url: https://github.com/diovandi
 linkedin_url: https://www.linkedin.com/in/diovandi/
 email: dio@diovandi.com
-# TODO(Dio): set to the PDF you choose (tailored or general CV), e.g. /assets/cv/diovandi-cv.pdf
-cv_pdf:
+cv_pdf: /assets/cv/diovandi-basheera-putra-cv.pdf
