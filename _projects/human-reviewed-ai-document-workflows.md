@@ -15,7 +15,6 @@ stack:
 
 <!--
   TODO(Dio) before merging:
-  - Confirm with SAG that a redacted version may be published.
   - Confirm the contribution statement, and name anything that was a teammate's.
   - Add 2–3 redacted screenshots (no client names, permit numbers, or people).
 -->
