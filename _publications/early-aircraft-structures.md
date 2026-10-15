@@ -5,6 +5,7 @@ description: Early aerospace structures projects combining analytical sizing, ma
 featured: false
 order: 5
 year: 2020
+date: 2026-07-24
 kind: Technical report pair
 status: TU Delft course reports
 venue: AE1222-I Design & Construction · Group E9H

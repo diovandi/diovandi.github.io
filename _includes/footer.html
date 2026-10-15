@@ -2,14 +2,16 @@
   <div class="shell footer-inner">
     <div>
       <strong>{{ site.author.name }}</strong>
-      <p>Mechatronics, automation and AI solutions. Based in Doha and South Tangerang.</p>
+      <p>Applied AI for engineering, grounded in mechatronics. Based in Doha and South Tangerang.</p>
     </div>
     <div class="footer-links">
       <a href="{{ site.data.profile.github_url }}">GitHub</a>
       <a href="{{ site.data.profile.linkedin_url }}">LinkedIn</a>
+      <a href="{{ site.data.profile.x_url }}" rel="me">X</a>
       {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">Email</a>{% endif %}
       <a href="{{ '/cv/' | relative_url }}">CV</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="{{ '/dashboard/' | relative_url }}" rel="nofollow" aria-label="Private dashboard (sign-in required)">Dashboard</a>
       <a href="#top">Back to top ↑</a>
     </div>
     <p class="footer-meta">© {{ 'now' | date: '%Y' }} {{ site.author.name }}. Built with plain Markdown and GitHub Pages.</p>

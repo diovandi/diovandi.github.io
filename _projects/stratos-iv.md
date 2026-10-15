@@ -5,6 +5,7 @@ description: Networked camera endpoints, OBS production and remote fault recover
 featured: true
 order: 5
 year: 2021–2022
+date: 2026-07-24
 category: Live production
 organization: Delft Aerospace Rocket Engineering
 role: Public Relations & Livestream Manager

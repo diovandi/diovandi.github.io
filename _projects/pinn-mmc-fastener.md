@@ -4,6 +4,7 @@ summary: A comparative research implementation for fastener-placement optimizati
 description: A comparative research implementation for fastener-placement optimization across differentiable-physics and topology-based methods.
 order: 8
 year: 2025
+date: 2026-07-24
 category: Computational
 organization: Independent research codebase
 role: Developer and analyst

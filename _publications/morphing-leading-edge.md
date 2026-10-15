@@ -5,6 +5,7 @@ description: An experimental and numerical assessment of a LeaTop morphing-wing 
 featured: true
 order: 3
 year: 2022
+date: 2026-07-24
 kind: Course scientific paper
 status: TU Delft course paper
 venue: AE2223-I Test Analysis & Simulation · Group D03

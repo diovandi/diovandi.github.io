@@ -4,7 +4,7 @@
     <span>{{ include.publication.year }}</span>
     <span>{{ include.publication.kind }}</span>
   </div>
-  <{{ heading }}><a href="{{ include.publication.url | relative_url }}">{{ include.publication.title }}</a></{{ heading }}>
+  <{{ heading }}><a href="{{ include.publication.url | relative_url }}">{{ include.publication.full_title | default: include.publication.title }}</a></{{ heading }}>
   {% if include.publication.authors %}<p class="publication-authors">{{ include.publication.authors }}</p>{% endif %}
   <p>{{ include.publication.summary }}</p>
   <div class="publication-meta">

@@ -4,6 +4,7 @@ summary: Calibration, maintenance, OctoPrint and firmware for SGU’s 3D printer
 description: Calibration, maintenance, OctoPrint and firmware for SGU’s 3D printers, and practical print-design advice that got a student’s robot driveshaft working.
 order: 6.6
 year: 2025–2026
+date: 2026-10-15
 category: Lab support
 organization: Swiss German University
 role: Mechatronics Teaching Assistant

@@ -5,6 +5,7 @@ description: A verified Python and Fusion 360 workflow for analyzing how assembl
 featured: true
 order: 2
 year: 2026
+date: 2026-07-24
 category: Research
 organization: Swiss German University
 role: Bachelor’s thesis · Lead developer and researcher

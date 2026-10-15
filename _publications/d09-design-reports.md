@@ -5,6 +5,7 @@ description: A five-work-package aircraft design and wing-structure report serie
 featured: false
 order: 4
 year: 2020
+date: 2026-07-24
 kind: Design report series
 status: TU Delft course reports
 venue: AE2111-I Aerospace Design & Systems Engineering · Group D09

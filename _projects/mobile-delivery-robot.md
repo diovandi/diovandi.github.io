@@ -4,6 +4,7 @@ summary: A team-built autonomous delivery-robot prototype with a custom frame, s
 description: A team-built autonomous delivery-robot prototype with a custom frame, steering system, cup-handling mechanism, electronics, and 3D-printed interfaces.
 order: 12
 year: 2024
+date: 2026-07-24
 category: Mechatronics
 organization: Swiss German University
 role: Group 4 · Mechatronic System Design

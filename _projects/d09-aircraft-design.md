@@ -5,6 +5,7 @@ description: A five-work-package TU Delft aircraft-design project spanning sizin
 featured: false
 order: 4
 year: 2020
+date: 2026-07-24
 category: Aerospace
 organization: Delft University of Technology
 role: Group D09 · Aerospace Design & Systems Engineering

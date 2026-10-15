@@ -4,6 +4,7 @@ summary: A documented teardown and reassembly of a 50:1 worm reducer, connecting
 description: A documented teardown and reassembly of a 50:1 worm reducer, connecting component inspection to assembly sequence and serviceability.
 order: 10
 year: 2026
+date: 2026-07-24
 category: Manufacturing
 organization: Politeknik Industri ATMI
 role: Assembly & Reverse Engineering team project

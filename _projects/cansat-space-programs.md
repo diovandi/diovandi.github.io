@@ -4,6 +4,7 @@ summary: Technical mentoring, launch-provider feasibility work, amateur-rocketry
 description: Technical mentoring, launch-provider feasibility work, amateur-rocketry strategy, and K–12 space-education planning.
 order: 11
 year: 2023–2024
+date: 2026-07-24
 category: Aerospace
 organization: DARE and Antarexxa Space Global
 role: Program, partnerships, and technical support
