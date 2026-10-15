@@ -1,5 +1,7 @@
-Manrope (Mikhail Sharanda) and DM Mono (Colophon Foundry) are licensed under
-the SIL Open Font License, Version 1.1: https://openfontlicense.org/
+Lora (Copyright 2011 The Lora Project Authors, https://github.com/cyrealtype/Lora-Cyrillic,
+with Reserved Font Name "Lora") and Plus Jakarta Sans (Copyright 2020 The Plus Jakarta Sans
+Project Authors, https://github.com/tokotype/PlusJakartaSans) are licensed under the
+SIL Open Font License, Version 1.1: https://openfontlicense.org/
 
-These are the Latin subsets served by Google Fonts, self-hosted so pages do
-not wait on a third-party stylesheet before rendering.
+These are the Latin variable-weight subsets served by Google Fonts (via Fontsource),
+self-hosted so pages do not wait on a third-party stylesheet before rendering.

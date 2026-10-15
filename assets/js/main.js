@@ -9,7 +9,7 @@
   function applyTheme(theme) {
     root.dataset.theme = theme;
     if (meta) {
-      meta.setAttribute('content', theme === 'dark' ? '#111411' : '#f3f0e8');
+      meta.setAttribute('content', theme === 'dark' ? '#0b1f3b' : '#faf9f6');
     }
     if (toggle) {
       toggle.setAttribute(
