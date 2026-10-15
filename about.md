@@ -2,7 +2,7 @@
 title: About Diovandi
 permalink: /about/
 eyebrow: 04 / About
-description: Diovandi Basheera Putra is a mechatronics engineer based in Doha and South Tangerang, working across PLC and control systems, mechanical design, and applied AI for engineering documents and data.
+description: Diovandi Basheera Putra is a mechatronics engineer based in Doha and South Tangerang, working across PLC and control systems, mechanical design, applied AI for engineering documents, live video production, and lab support.
 ---
 
 I am Diovandi Basheera Putra, a mechatronics engineer. I graduated from Swiss German University (S.T. Mechanical Engineering, Mechatronics) in September 2026 and from Fachhochschule Südwestfalen (BEng Industrial Engineering) through their double-degree programme, and I worked as Strategic Technical Advisor at SAG through October 2026. My work sits between physical systems and computation: PLC and control systems, mechanical design, robotics, optimization, and applied AI for engineering documents and data.
