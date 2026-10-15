@@ -15,6 +15,11 @@ Before SGU, I studied Aerospace Engineering at TU Delft and worked with Delft Ae
 
 At SGU, I returned to hands-on mechatronics and connected it to software. I built ROS 2 navigation systems, motor-control simulations, CAD-integrated analysis tools, and manufacturing and reverse-engineering projects. As a teaching assistant until September 2026, I ran OMRON PLC, electro-pneumatics and microcontroller labs and helped students move from equations and lab instructions to systems that actually work.
 
+<figure>
+  <img src="{{ '/assets/images/photos/penabur-workshop.webp' | relative_url }}" alt="Diovandi and other SGU mechatronics teaching assistants at the front of a full classroom of high-school students, with a workshop banner on the back wall." width="1280" height="960" loading="lazy" decoding="async">
+  <figcaption>With the other SGU mechatronics teaching assistants at a high-school workshop at SMAK 3 BPK Penabur, Bandung.</figcaption>
+</figure>
+
 In 2026 I also built software for real operations at SAG (Stratcon Agara Global), an advisory and project-development firm in Indonesia: a Gemini permit-extraction pipeline with human review, a prototype of cited document search, the design of a WhatsApp document assistant, then a document-control system for compliance projects on Cloudflare Workers and D1, contributions to the office's procurement app, and Claude skills for company documents. In every case a person checks what the model produces before anyone relies on it. The [case study](/projects/human-reviewed-ai-document-workflows/) explains how.
 
 Alongside the engineering, I have done a fair amount of live production and hands-on support. For the [Stratos IV launch campaign](/projects/stratos-iv/) I set up the networked camera views used by mission control and ran the public stream, and I was the main campaign videographer for the team’s [documentary](/projects/stratos-iv-documentary/). At SGU I ran the [Mechatronics Day livestream](/projects/sgu-live-production/), [looked after the lab’s 3D printers](/projects/lab-digital-fabrication/), and led a differential-equations revision session for about 20 students.
