@@ -2,7 +2,7 @@
 title: Experience
 permalink: /experience/
 eyebrow: 03 / Experience
-description: Experience across AI and software tooling, PLC and mechatronics teaching, industrial training, mechanical design, aerospace programs, and technical leadership.
+description: Experience across AI and software tooling, PLC and mechatronics teaching, lab support, industrial training, mechanical design, aerospace programs, live production, and technical leadership.
 ---
 
 <div class="timeline">

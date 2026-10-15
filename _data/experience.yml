@@ -15,10 +15,11 @@
   location: Tangerang, Indonesia
   organization: Swiss German University
   role: Mechatronics Teaching Assistant
-  summary: Facilitated mechatronics and control laboratories while mentoring students through analysis, debugging, and practical project work.
+  summary: Facilitated mechatronics and control laboratories, kept the lab's 3D printers running, and mentored students through analysis, debugging, and practical project work.
   highlights:
     - Supported labs involving PLCs, microcontrollers, sensors, actuators, robotic arms, pneumatics, and control experiments, and tutored Differential Equations.
     - Assessed reports and quizzes, maintained teaching hardware, and helped prepare demonstrations, manuals, and workshops.
+    - Calibrated and maintained the lab's Bambu Lab and Creality 3D printers, set up OctoPrint on Raspberry Pi boards, updated printer firmware, and advised students on printable designs.
 
 - period: May — Jul 2026
   location: Cikarang, Indonesia
@@ -74,8 +75,9 @@
   location: Delft, Netherlands / Moguer, Spain
   organization: Stratos IV, Delft Aerospace Rocket Engineering
   role: Public Relations & Livestream Manager
-  summary: Led launch-campaign communications and built the mission-critical video workflow used for public launch-attempt broadcasts.
+  summary: Led launch-campaign communications, built the camera network and live production for the launch attempts, and filmed the campaign for the team documentary.
   highlights:
     - Helped raise more than €15,625 through the Stratos IV crowdfunding campaign.
-    - Designed, tested, integrated, and deployed livestream infrastructure over the INTA CEDEA network.
+    - Set up headless Raspberry Pi camera endpoints and OBS production for mission-control views and the public stream over the INTA CEDEA network, and trained the PR crew to run them.
+    - Main campaign videographer (Sep–Oct 2021) for the team documentary, later directing interviews and rough-editing sequences; the final edit was completed by others and released in 2025.
     - Coordinated live shows, graphics, media assets, and sponsor deliverables for partners including Airbus, Arianespace, NLR, and Teijin.

@@ -2,7 +2,7 @@
 title: Projects
 permalink: /projects/
 eyebrow: 01 / Portfolio
-description: Engineering systems, research implementations, aerospace work, and practical software—each grounded in project records, reports, or public code.
+description: Engineering systems, research implementations, aerospace work, practical software, live production, and lab support—each grounded in project records, reports, public code, or recordings.
 ---
 
 <p class="index-note">Projects marked as team work describe my documented role and contribution. Client and internal work is summarized without publishing confidential material.</p>
