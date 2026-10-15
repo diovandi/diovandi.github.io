@@ -28,4 +28,19 @@ The robot combines 2D LIDAR, an IMU, wheel odometry, Extended Kalman Filtering, 
 - AMCL parameters and Nav2 lifecycle behavior were tuned for reliable autonomous patrol execution.
 - Recorded patrol data was replayed to reconstruct trajectories and quantify tracking performance.
 
+## Checking against hardware
+
+The project itself was built and analysed in simulation. Alongside it, we tested the software on an autonomous mobile robot available in SGU's lab, to check that what worked in Gazebo also held up on real hardware.
+
+<div class="photo-pair">
+  <figure>
+    <img src="{{ '/assets/images/photos/amr-wiring.webp' | relative_url }}" alt="The SGU lab robot with its top frame open, showing batteries, a microcontroller board and wiring." width="472" height="629" loading="lazy" decoding="async">
+    <figcaption>Inside the SGU lab robot.</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/photos/amr-robot.webp' | relative_url }}" alt="The assembled SGU lab robot, a dark grey wheeled platform labelled Hybrid and Electric Vehicles, on a carpeted floor." width="388" height="441" loading="lazy" decoding="async">
+    <figcaption>The assembled robot.</figcaption>
+  </figure>
+</div>
+
 The final analysis measured a **0.15 m mean path deviation** over the recorded patrol and documented the remaining map–odom jitter under wheel-slip conditions. The public repository includes the ROS 2 workspace, robot description, environments, launch scripts, maps, patrol metadata, exercises, and report sources.
