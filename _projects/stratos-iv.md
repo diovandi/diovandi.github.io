@@ -1,27 +1,50 @@
 ---
-title: Stratos IV Launch Campaign
-summary: Public communications, crowdfunding, and mission-critical livestream infrastructure for DARE’s Stratos IV student rocket.
-description: Public communications, crowdfunding, and mission-critical livestream infrastructure for DARE’s Stratos IV student rocket.
+title: "Stratos IV: live video and operational camera views"
+summary: Networked camera endpoints, OBS production and remote fault recovery for DARE’s Stratos IV launch campaign, serving mission control, the pad crew and the public stream.
+description: Networked camera endpoints, OBS production and remote fault recovery for DARE’s Stratos IV launch campaign, serving mission control, the pad crew and the public stream.
+featured: true
 order: 5
 year: 2021–2022
-category: Aerospace
+category: Live production
 organization: Delft Aerospace Rocket Engineering
 role: Public Relations & Livestream Manager
 stack:
-  - Livestream systems
-  - Technical operations
-  - Public relations
-  - Fundraising
+  - Raspberry Pi OS Lite
+  - SSH / systemd services
+  - VLC / RTSP
+  - OBS Studio
+  - SPX-GC graphics
 live_url: https://www.youtube.com/watch?v=GnA4juB8n3k
-live_label: Watch launch broadcast
+live_label: Watch the documentary
 ---
 
-Stratos IV combined a technically ambitious student-rocket program with a public campaign that had to communicate clearly to sponsors, supporters, and a worldwide audience.
+Stratos IV was a student rocket built by Delft Aerospace Rocket Engineering (DARE). In September and October 2021 the team ran its launch campaign at INTA’s CEDEA range in Moguer, Spain. The rocket did not fly during that campaign, but the attempts still needed live camera views for the people running them and a public broadcast for supporters and sponsors.
 
-I helped execute the crowdfunding campaign that raised more than **€15,625**, standardized visual and social-media guidelines, produced photo and video assets, and delivered communications obligations for major partners including Airbus, Arianespace, NLR, and Teijin.
+## Context
 
-For launch operations at INTA’s CEDEA facility in Moguer, Spain, I designed, tested, integrated, and deployed the video livestream workflow over the available site network. I then planned and directed public launch-attempt broadcasts, coordinating the show, live graphics, technical feeds, and sponsor-facing communication.
+The pad and the base were connected through the site’s existing fibre network, which INTA owned and managed. Mission control needed to see the tower, the umbilical and filling equipment, the pad and the nozzle area. The pad crew in the bunker and the crew viewing area needed views too. Once the flight termination system was installed, nobody was allowed back to the pad, so anything out there had to be recoverable remotely.
 
-This role taught me that mission communications are an engineering system: bandwidth, signal paths, redundancy, timing, production decisions, external expectations, and safety-critical operations all interact. The public broadcast linked above is one visible output of a much larger operational chain.
+## My work
 
-The related [Stratos IV crowdfunding page](https://www.supporttudelft.nl/project/stratosiv?locale=en) preserves the public campaign and its result.
+- Set up headless Raspberry Pi camera endpoints with webcams at the pad, the bunker, mission control and the crew area, running Raspberry Pi OS Lite with a service that started the stream after boot.
+- Worked with INTA’s base IT lead and DARE’s electronics team to get the access and configuration the cameras needed on the site network.
+- Brought the feeds into OBS on the production laptop, arranged them as a camera matrix, and sent views back to VLC displays in mission control and the crew area.
+- Ran the public YouTube stream from the same setup, with a presenter camera and microphone, the team’s TeamSpeak communications and SPX-GC lower-third graphics.
+- Connected processed telemetry from the electronics team to the graphics, and tested that data path with a simulated input. A teammate decoded the radio telemetry; the rocket did not fly, so the path was never used in flight.
+- Trained members of the PR crew to repeat the setup for later launch attempts.
+
+## A fault we had to solve
+
+During the first dress rehearsal, camera feeds kept dropping out. We read the logs on the Pis over SSH and traced the problem to overheating in direct sunlight. Shading the Pis made the feeds stable again.
+
+The dropouts also showed why remote recovery mattered. I could restart a stream service or reboot a Pi over SSH. For a Pi that stopped responding, a teammate proposed an Ethernet-connected Arduino and relay that could power-cycle it on command, which the team built into the setup.
+
+## The wider campaign
+
+Alongside the video work, I helped run the crowdfunding campaign that raised more than **€15,625**, standardised the visual and social-media guidelines, produced photo and video material, and delivered communications commitments for partners including Airbus, Arianespace, NLR and Teijin. The [Stratos IV crowdfunding page](https://www.supporttudelft.nl/project/stratosiv?locale=en) preserves the campaign and its result.
+
+I was also the main videographer during the campaign; the [documentary case study](/projects/stratos-iv-documentary/) covers that work and who finished the film.
+
+## Limits of this record
+
+The network backbone and fibre link were INTA’s, not mine. The exact camera inventory and the mechanism that served the local RTSP views are not reconstructed here, so this page gives no camera count or network diagram.
