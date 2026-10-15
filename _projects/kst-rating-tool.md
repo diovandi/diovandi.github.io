@@ -15,6 +15,12 @@ stack:
   - Fusion 360
   - Optimization
 repository: https://github.com/diovandi/kst-rating-tool
+cover: /assets/images/photos/kst-fusion-wizard.webp
+cover_width: 1600
+cover_height: 1079
+cover_alt: "Fusion 360 window with a printer-housing model and the KST Analysis Wizard panel listing line constraints, with buttons to add constraints, run the analysis and send a constraint to optimization."
+cover_caption: "The KST Analysis Wizard add-in in Fusion 360, defining line constraints on the printer-housing example."
+image: /assets/images/photos/kst-fusion-wizard.webp
 ---
 
 This bachelor’s thesis turns a manually prepared MATLAB analysis into a reproducible CAD-to-analysis workflow. A Fusion 360 add-in captures point, pin, line, and plane constraints, exports them through a versioned JSON contract, and hands them to a deterministic Python evaluator.
