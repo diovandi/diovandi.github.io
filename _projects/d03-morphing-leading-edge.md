@@ -16,11 +16,22 @@ stack:
   - Experimental data analysis
 live_url: /publications/morphing-leading-edge/
 live_label: Read the scientific paper entry
+cover: /assets/images/photos/d03-leatop-demonstrator.webp
+cover_width: 948
+cover_height: 1200
+cover_alt: "The LeaTop morphing leading-edge demonstrator: a curved composite skin around an internal linkage and actuator on an aluminium base."
+cover_caption: "The LeaTop demonstrator that Group D03 analysed. Figure from our D03 paper."
+image: /assets/images/photos/d03-leatop-demonstrator.webp
 ---
 
 Group D03 evaluated the mechanical effectiveness and structural behavior of TU Delft's LeaTop morphing leading-edge demonstrator.
 
 The work combined finite-element displacement and strain data with experimental fiber measurements and photogrammetry. We transformed strains into the local skin coordinate system, compared the simulated deformation with the aerodynamic target, and evaluated the actuation energy required by the concept.
+
+<figure>
+  <img src="{{ '/assets/images/photos/d03-fibre-layout.webp' | relative_url }}" alt="Diagram of the fibre-optic strain wire routed in four contours, A and B on the outer skin and C and D on the inner skin, shown in front-quarter and side views." width="1400" height="770" loading="lazy" decoding="async">
+  <figcaption>The route of the fibre-optic strain sensor: contours A and B on the outer skin, C and D on the inner skin.</figcaption>
+</figure>
 
 ## Reported result
 

@@ -20,6 +20,11 @@ Group D09 developed a large passenger-aircraft concept through a sequence of sys
 
 My documented contribution covered aircraft design and Class II estimations, critical load-case analysis, aileron-reversal analysis, final wingbox design, technical figures, and report integration. The project archive also contains my CATIA flap-mechanism and wing-section work.
 
+<figure>
+  <img src="{{ '/assets/images/photos/d09-internal-loads.webp' | relative_url }}" alt="Three plots of internal shear force, bending moment and torque along the wing span, each falling from a maximum at the root to zero at the tip." width="1200" height="1171" loading="lazy" decoding="async">
+  <figcaption>Internal shear, moment and torque along the span for the critical load case at a load factor of 3.86 (work package 4).</figcaption>
+</figure>
+
 ## Structural design results
 
 The final work package compared six wingbox layouts against buckling, tensile-strength, crack-propagation, and aileron-reversal requirements. Three configurations survived the structural screening; a trade-off selected the final layout with a 6 mm skin, 10 mm stringers, 20 mm spars, a spanwise stringer schedule, and nine ribs at defined stations.

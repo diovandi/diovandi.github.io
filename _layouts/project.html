@@ -27,6 +27,12 @@ layout: default
       </ul>
     {% endif %}
   </header>
+  {% if page.cover %}
+    <figure class="project-cover">
+      <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt | escape }}"{% if page.cover_width %} width="{{ page.cover_width }}" height="{{ page.cover_height }}"{% endif %} fetchpriority="high" decoding="async">
+      {% if page.cover_caption %}<figcaption>{{ page.cover_caption }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
   <div class="prose article-prose">
     {{ content }}
   </div>

@@ -14,6 +14,7 @@ layout: default
       </div>
     </div>
     <aside class="hero-note" aria-label="Current note">
+      <img class="note-portrait" src="{{ '/assets/images/photos/headshot-240.webp' | relative_url }}" alt="Portrait of Diovandi Basheera Putra." width="96" height="96" decoding="async">
       <span class="note-label">Currently</span>
       <p>{{ site.data.profile.availability }}</p>
       {% if site.data.profile.email %}<a href="mailto:{{ site.data.profile.email }}">{{ site.data.profile.email }}</a>{% endif %}
