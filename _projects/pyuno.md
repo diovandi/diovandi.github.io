@@ -5,6 +5,7 @@ description: A complete single-player card game with AI opponents, tested game l
 featured: false
 order: 9
 year: 2025
+date: 2026-07-24
 category: Software
 organization: Fachhochschule Südwestfalen
 role: Group 19 course project with Jonathan Garry Hartono

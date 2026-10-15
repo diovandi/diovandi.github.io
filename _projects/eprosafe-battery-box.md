@@ -4,6 +4,7 @@ summary: CAD changes to improve locking, latching, and vertical stacking for fir
 description: CAD changes to improve locking, latching, and vertical stacking for fire-resistant battery protection units.
 order: 6
 year: 2025
+date: 2026-07-24
 category: Mechanical design
 organization: Deutscher Akkuservice / EproSafe
 role: Mechanical Engineering Intern

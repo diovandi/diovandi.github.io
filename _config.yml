@@ -1,6 +1,6 @@
 title: Diovandi Basheera Putra
-tagline: Mechatronics Engineer & AI Solutions Builder
-description: "Mechatronics engineer in Doha and South Tangerang working on PLC and control systems, mechanical design, applied AI for engineering documents, and live video production."
+tagline: Applied AI and Mechatronics Engineer
+description: "Mechatronics engineer in Doha and South Tangerang building applied AI for engineering documents and data, grounded in PLC, control systems and mechanical design."
 url: "https://diovandi.com"
 baseurl: ""
 lang: en
@@ -10,6 +10,7 @@ timezone: Asia/Qatar
 author:
   name: Diovandi Basheera Putra
   url: "https://diovandi.com/about/"
+  twitter: diovndi
 
 # Default social-share image (1200 x 630); set per page in `defaults` below.
 image: /assets/images/og-card.png
@@ -19,8 +20,10 @@ social:
   links:
     - https://www.linkedin.com/in/diovandi/
     - https://github.com/diovandi
+    - https://x.com/diovndi
 
 twitter:
+  username: diovndi
   card: summary_large_image
 
 # Paste the token from Google Search Console (HTML tag method) here.
@@ -52,14 +55,19 @@ defaults:
       type: projects
     values:
       layout: project
+      seo:
+        type: CreativeWork
   - scope:
       path: ""
       type: publications
     values:
       layout: publication
+      seo:
+        type: ScholarlyArticle
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
 

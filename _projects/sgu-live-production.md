@@ -4,6 +4,7 @@ summary: Camera, OBS switching, keyed graphics, recording and YouTube streaming 
 description: Camera, OBS switching, keyed graphics, recording and YouTube streaming for SGU’s multi-day Angkot Master competition, plus training the crew to run it.
 order: 5.2
 year: 2024
+date: 2026-10-15
 category: Live production
 organization: Swiss German University
 role: Livestream production · Event committee

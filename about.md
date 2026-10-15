@@ -1,7 +1,7 @@
 ---
 title: About Diovandi
 permalink: /about/
-eyebrow: 04 / About
+eyebrow: About
 description: Diovandi Basheera Putra is a mechatronics engineer based in Doha and South Tangerang, working across PLC and control systems, mechanical design, applied AI for engineering documents, live video production, and lab support.
 ---
 
@@ -37,6 +37,6 @@ The thread connecting these projects is practical systems thinking: understand t
 
 ## Get in touch
 
-I finished school in Doha at Qatar International School, and I now split my time between Doha and South Tangerang. I am open to engineering, automation, AI solutions, technical production, and lab roles in either city, and to remote or contract work.
+I finished school in Doha at Qatar International School, and I now split my time between Doha and South Tangerang. I am open to applied AI, digital engineering and automation roles in either city, and to remote or contract work.
 
 {% if site.data.profile.email %}Email me at [{{ site.data.profile.email }}](mailto:{{ site.data.profile.email }}), connect{% else %}Connect{% endif %} on [LinkedIn](https://www.linkedin.com/in/diovandi/), or browse the public code on [GitHub](https://github.com/diovandi). My CV is on the [CV page](/cv/).

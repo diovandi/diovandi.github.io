@@ -5,6 +5,7 @@ description: Experimental and numerical evaluation of TU Delft's LeaTop morphing
 featured: true
 order: 4.5
 year: 2022
+date: 2026-07-25
 category: Aerospace
 organization: Delft University of Technology
 role: Group D03 · Test Analysis & Simulation

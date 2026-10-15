@@ -1,8 +1,15 @@
 ---
 title: "Case study: Human-reviewed AI document workflows"
+description: How I built AI extraction, cited search and document-control tools for permits and compliance documents, with a person reviewing every record that matters.
 summary: How I built AI tools that read operational documents while keeping a person responsible for every record that matters. A two-minute read.
-order: 1.5
+featured: true
+order: 1
+related:
+  - /projects/compliance-document-control/
+redirect_from:
+  - /projects/ai-document-rag/
 year: 2026
+date: 2026-10-14
 category: Case study
 organization: PT Stratcon Agara Global (SAG)
 role: Corporate Development Intern (2026) · Strategic Technical Advisor
@@ -25,7 +32,7 @@ Operational documents, including government permits, lived in shared folders. Tu
 
 ## The approach
 
-AI does the reading; people make the decisions. The system extracts metadata, flags anything it is unsure of, and a reviewer approves it before it becomes a record anyone relies on. Questions are answered from those approved records or from the source files, with a citation back to the document.
+AI does the reading; people make the decisions. The system extracts metadata, flags anything it is unsure of, and a reviewer approves it before it becomes a record anyone relies on. Questions are answered from those approved records or from the source files, with a citation back to the document. Google Groups and Shared Drives set who owns and can read each department's files.
 
 <figure class="diagram">
   <img src="{{ '/assets/images/case-studies/human-reviewed-ai-architecture.svg' | relative_url }}" alt="Architecture: source documents feed an AI extraction step; a human reviews uncertain fields before records are approved; staff query approved records through a dashboard and a chat assistant that cites its sources.">
@@ -65,4 +72,4 @@ I built the permit-extraction workflow with its human-review step and AppSheet v
 - **Meet people where they already work.** The tools ran in a dashboard and a chat channel rather than a new application.
 - **Access control is part of the architecture.** Ownership of the shared drives had to be settled before any AI could read them.
 
-Company documents, client names, and identifiers are deliberately left out. For the broader set of tools, see [AI-Assisted Document Management & RAG]({{ '/projects/ai-document-rag/' | relative_url }}).
+Company documents, client names, and identifiers are deliberately left out. The document-control system and other internal tools are described in [Compliance Document Control & Internal Tools]({{ '/projects/compliance-document-control/' | relative_url }}).

@@ -4,6 +4,7 @@ summary: Campaign videography, interview direction and rough editing for DARE’
 description: Campaign videography, interview direction and rough editing for DARE’s documentary about the Stratos IV launch campaign, released in 2025.
 order: 5.1
 year: 2021–2023
+date: 2026-10-15
 category: Documentary
 organization: Delft Aerospace Rocket Engineering
 role: Campaign videographer · Interviewer · Rough edit

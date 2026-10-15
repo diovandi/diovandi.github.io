@@ -1,10 +1,12 @@
 ---
-title: A CAD-Integrated Kinematic Screw Theory Framework for Feature-Level Assembly Constraint Analysis
+title: A CAD-Integrated KST Framework for Assembly Constraint Analysis
+full_title: A CAD-Integrated Kinematic Screw Theory Framework for Feature-Level Assembly Constraint Analysis
 summary: A reproducible CAD-to-KST method for early rigid-body constraint-layout assessment and bounded design revision.
 description: A reproducible CAD-to-KST method for early rigid-body constraint-layout assessment and bounded design revision.
 featured: true
 order: 1
 year: 2026
+date: 2026-07-24
 kind: Research manuscript
 status: Manuscript / preprint
 venue: Swiss German University

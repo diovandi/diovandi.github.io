@@ -3,8 +3,11 @@ title: Compliance Document Control & Internal Tools
 summary: A document-control system for compliance projects on Cloudflare Workers and D1, plus contributions to a live procurement app and Claude skills for company documents.
 description: A document-control system for compliance projects on Cloudflare Workers and D1, plus contributions to a live procurement app and Claude skills for company documents.
 featured: false
+related:
+  - /projects/human-reviewed-ai-document-workflows/
 order: 1.6
 year: 2026
+date: 2026-10-14
 category: AI systems
 organization: PT Stratcon Agara Global (SAG)
 role: Strategic Technical Advisor

@@ -30,4 +30,28 @@ layout: default
   <div class="prose article-prose">
     {{ content }}
   </div>
+
+  {% assign same_category = site.projects | where: "category", page.category | sort: "order" %}
+  {% assign featured = site.projects | where: "featured", true | sort: "order" %}
+  {% assign picked = site.projects | where_exp: "p", "page.related contains p.url" %}
+  {% assign candidates = picked | concat: same_category | concat: featured %}
+  {% assign shown = "" %}
+  {% assign count = 0 %}
+  <section class="related-work" aria-labelledby="related-work">
+    <div class="section-heading">
+      <h2 id="related-work">Related work</h2>
+      <a class="text-link" href="{{ '/projects/' | relative_url }}">All projects <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="project-grid">
+      {% for project in candidates %}
+        {% if count >= 2 %}{% break %}{% endif %}
+        {% assign marker = project.url | append: "|" %}
+        {% if project.url == page.url or shown contains marker %}{% continue %}{% endif %}
+        {% assign shown = shown | append: marker %}
+        {% assign count = count | plus: 1 %}
+        {% include project-card.html project=project index=count %}
+      {% endfor %}
+    </div>
+  </section>
 </article>
+{% include breadcrumbs.html section="Projects" section_url="/projects/" %}

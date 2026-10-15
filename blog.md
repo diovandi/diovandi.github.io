@@ -1,7 +1,7 @@
 ---
 title: Blog
 permalink: /blog/
-eyebrow: 02 / Notes
+eyebrow: Notes
 description: Writing about engineering, software, experiments, and what I learn while building.
 ---
 

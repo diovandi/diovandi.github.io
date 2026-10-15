@@ -4,6 +4,7 @@ summary: Reproducible MATLAB/Simulink studies of DC motor control and induction-
 description: Reproducible MATLAB/Simulink studies of DC motor control and induction-motor indirect field-oriented control.
 order: 7
 year: 2026
+date: 2026-07-24
 category: Controls
 organization: Swiss German University
 role: Individual course project

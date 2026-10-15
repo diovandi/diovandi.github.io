@@ -1,8 +1,13 @@
 ---
 title: Control & Automation
+description: OMRON PLC programming in ladder, structured text and FBD, HMI screens and control-panel work from ATMI industrial training and SGU mechatronics labs.
 summary: Hands-on OMRON PLC programming, HMI, and electrical control-panel work from industrial training at ATMI and the mechatronics laboratories I supported as a teaching assistant.
 order: 6.5
+related:
+  - /projects/electric-drives/
+  - /projects/lab-digital-fabrication/
 year: 2026
+date: 2026-10-14
 category: Automation
 organization: Politeknik Industri ATMI · Swiss German University
 role: Industrial trainee · Teaching assistant

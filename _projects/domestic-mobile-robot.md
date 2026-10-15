@@ -5,6 +5,7 @@ description: A complete ROS 2 navigation pipeline for a simulated service robot,
 featured: true
 order: 3
 year: 2025
+date: 2026-07-24
 category: Robotics
 organization: Swiss German University
 role: Individual course project

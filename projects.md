@@ -1,7 +1,7 @@
 ---
 title: Projects
 permalink: /projects/
-eyebrow: 01 / Portfolio
+eyebrow: Portfolio
 description: Engineering systems, research implementations, aerospace work, practical software, live production, and lab support—each grounded in project records, reports, public code, or recordings.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Research & technical writing
 permalink: /publications/
-eyebrow: 02 / Writing
+eyebrow: Writing
 description: Papers, thesis work, and selected technical reports. Course papers and manuscripts are labeled as such rather than presented as peer-reviewed publications.
 ---
 
