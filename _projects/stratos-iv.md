@@ -7,6 +7,7 @@ order: 5
 year: 2021–2022
 date: 2026-07-24
 category: Live production
+area: media
 organization: Delft Aerospace Rocket Engineering
 role: Public Relations & Livestream Manager
 stack:

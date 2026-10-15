@@ -6,6 +6,7 @@ order: 8
 year: 2025
 date: 2026-07-24
 category: Computational
+area: ai-software
 organization: Independent research codebase
 role: Developer and analyst
 stack:

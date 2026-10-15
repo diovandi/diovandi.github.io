@@ -7,6 +7,7 @@ order: 4
 year: 2020
 date: 2026-07-24
 category: Aerospace
+area: aerospace
 organization: Delft University of Technology
 role: Group D09 · Aerospace Design & Systems Engineering
 stack:

@@ -6,6 +6,7 @@ order: 5.1
 year: 2021–2023
 date: 2026-10-15
 category: Documentary
+area: media
 organization: Delft Aerospace Rocket Engineering
 role: Campaign videographer · Interviewer · Rough edit
 stack:

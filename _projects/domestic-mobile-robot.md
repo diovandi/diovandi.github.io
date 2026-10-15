@@ -7,6 +7,7 @@ order: 3
 year: 2025
 date: 2026-07-24
 category: Robotics
+area: robotics-controls
 organization: Swiss German University
 role: Individual course project
 stack:

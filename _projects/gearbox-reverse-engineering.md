@@ -6,6 +6,7 @@ order: 10
 year: 2026
 date: 2026-07-24
 category: Manufacturing
+area: mechanical
 organization: Politeknik Industri ATMI
 role: Assembly & Reverse Engineering team project
 stack:

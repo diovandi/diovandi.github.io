@@ -6,6 +6,7 @@ order: 6.6
 year: 2025–2026
 date: 2026-10-15
 category: Lab support
+area: mechanical
 organization: Swiss German University
 role: Mechatronics Teaching Assistant
 stack:

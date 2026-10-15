@@ -6,6 +6,7 @@ order: 6
 year: 2025
 date: 2026-07-24
 category: Mechanical design
+area: mechanical
 organization: Deutscher Akkuservice / EproSafe
 role: Mechanical Engineering Intern
 stack:

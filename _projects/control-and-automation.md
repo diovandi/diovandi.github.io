@@ -9,6 +9,7 @@ related:
 year: 2026
 date: 2026-10-14
 category: Automation
+area: robotics-controls
 organization: Politeknik Industri ATMI · Swiss German University
 role: Industrial trainee · Teaching assistant
 stack:

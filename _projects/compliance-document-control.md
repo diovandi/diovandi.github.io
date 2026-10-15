@@ -9,6 +9,7 @@ order: 1.6
 year: 2026
 date: 2026-10-14
 category: AI systems
+area: ai-software
 organization: PT Stratcon Agara Global (SAG)
 role: Strategic Technical Advisor
 stack:

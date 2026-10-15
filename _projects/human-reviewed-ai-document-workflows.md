@@ -11,6 +11,7 @@ redirect_from:
 year: 2026
 date: 2026-10-14
 category: Case study
+area: ai-software
 organization: PT Stratcon Agara Global (SAG)
 role: Corporate Development Intern (2026) · Strategic Technical Advisor
 stack:
