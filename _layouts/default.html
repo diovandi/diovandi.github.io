@@ -13,9 +13,9 @@
       })();
     </script>
     {% seo %}
-    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
-    <link rel="icon" href="{{ '/assets/images/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
-    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}?v=2" type="image/svg+xml">
+    <link rel="icon" href="{{ '/assets/images/favicon-32.png' | relative_url }}?v=2" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}?v=2">
     {% feed_meta %}
     {% if page.url == '/' or page.url == '/about/' %}{% include person-schema.html %}{% endif %}
     {% assign asset_version = site.time | date: "%s" %}
