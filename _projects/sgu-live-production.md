@@ -30,7 +30,10 @@ I sometimes operated the camera myself, and while I did, I trained another commi
 
 ## Recordings
 
-- [Day 2 recording](https://www.youtube.com/watch?v=NUOwbfoem2M)
-- [Day 3 recording](https://www.youtube.com/watch?v=WqB6XybWmUM)
+{% include youtube.html id="6GUqqOZ-SOU" title="Mechatronics Day 2024 livestream, day 1" %}
+
+{% include youtube.html id="NUOwbfoem2M" title="Mechatronics Day 2024 livestream, day 2" %}
+
+{% include youtube.html id="WqB6XybWmUM" title="Mechatronics Day 2024 livestream, day 3" %}
 
 The PR team designed the graphics template; my part was integrating it into the live production.
