@@ -7,6 +7,7 @@ order: 2
 year: 2026
 date: 2026-07-24
 category: Research
+area: ai-software
 organization: Swiss German University
 role: Bachelor’s thesis · Lead developer and researcher
 stack:

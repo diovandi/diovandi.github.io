@@ -6,6 +6,7 @@ order: 5.2
 year: 2024
 date: 2026-10-15
 category: Live production
+area: media
 organization: Swiss German University
 role: Livestream production · Event committee
 stack:

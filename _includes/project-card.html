@@ -1,5 +1,5 @@
 {% assign heading = include.heading | default: "h3" %}
-<article class="project-card{% if include.project.cover %} has-cover{% endif %}">
+<article class="project-card{% if include.project.cover %} has-cover{% endif %}"{% if include.project.area %} data-area="{{ include.project.area }}"{% endif %}>
   <a class="card-link" href="{{ include.project.url | relative_url }}" aria-label="Read about {{ include.project.title }}"></a>
   {% if include.project.cover %}
     <div class="card-media" aria-hidden="true">
@@ -7,7 +7,7 @@
     </div>
   {% endif %}
   <div class="card-topline">
-    <span class="project-number">0{{ include.index }}</span>
+    <span class="project-number">{% if include.index < 10 %}0{% endif %}{{ include.index }}</span>
     {% if include.project.category %}<span class="project-status">{{ include.project.category }}</span>{% elsif include.project.featured %}<span class="project-status">Featured</span>{% endif %}
   </div>
   <{{ heading }}>{{ include.project.title }}</{{ heading }}>

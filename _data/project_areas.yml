@@ -1,0 +1,11 @@
+# Filter groups on the projects page. Each project sets `area:` to one of these keys.
+- key: ai-software
+  label: AI & software
+- key: robotics-controls
+  label: Robotics & controls
+- key: mechanical
+  label: Mechanical
+- key: aerospace
+  label: Aerospace
+- key: media
+  label: Live production & video

@@ -6,6 +6,7 @@ order: 12
 year: 2024
 date: 2026-07-24
 category: Mechatronics
+area: robotics-controls
 organization: Swiss German University
 role: Group 4 · Mechatronic System Design
 stack:

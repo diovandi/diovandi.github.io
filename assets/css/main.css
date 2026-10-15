@@ -525,6 +525,47 @@ a {
   padding-top: 24px;
 }
 
+.project-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+
+.project-filter button {
+  padding: 7px 13px;
+  border: 1px solid var(--line-strong);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.project-filter button:hover {
+  border-color: var(--accent);
+}
+
+.project-filter button[aria-pressed="true"] {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.project-filter-status {
+  min-height: 1.2em;
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
+.project-card[hidden] {
+  display: none;
+}
+
 .index-note {
   max-width: 780px;
   margin: -28px 0 42px;
