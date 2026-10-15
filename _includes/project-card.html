@@ -1,6 +1,11 @@
 {% assign heading = include.heading | default: "h3" %}
-<article class="project-card">
+<article class="project-card{% if include.project.cover %} has-cover{% endif %}">
   <a class="card-link" href="{{ include.project.url | relative_url }}" aria-label="Read about {{ include.project.title }}"></a>
+  {% if include.project.cover %}
+    <div class="card-media" aria-hidden="true">
+      <img src="{{ include.project.cover | relative_url }}" alt=""{% if include.project.cover_width %} width="{{ include.project.cover_width }}" height="{{ include.project.cover_height }}"{% endif %} loading="lazy" decoding="async"{% if include.project.cover_position %} style="object-position: {{ include.project.cover_position }}"{% endif %}>
+    </div>
+  {% endif %}
   <div class="card-topline">
     <span class="project-number">0{{ include.index }}</span>
     {% if include.project.category %}<span class="project-status">{{ include.project.category }}</span>{% elsif include.project.featured %}<span class="project-status">Featured</span>{% endif %}

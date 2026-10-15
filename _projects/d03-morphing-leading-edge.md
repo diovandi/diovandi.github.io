@@ -19,6 +19,7 @@ live_label: Read the scientific paper entry
 cover: /assets/images/photos/d03-leatop-demonstrator.webp
 cover_width: 948
 cover_height: 1200
+cover_position: "center 35%"
 cover_alt: "The LeaTop morphing leading-edge demonstrator: a curved composite skin around an internal linkage and actuator on an aluminium base."
 cover_caption: "The LeaTop demonstrator that Group D03 analysed. Figure from our D03 paper."
 image: /assets/images/photos/d03-leatop-demonstrator.webp
