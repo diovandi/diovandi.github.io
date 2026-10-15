@@ -15,6 +15,12 @@ stack:
   - Nav2 / SLAM
   - Python
 repository: https://github.com/diovandi/sgu-amr
+cover: /assets/images/photos/amr-gazebo-rviz.webp
+cover_width: 1600
+cover_height: 573
+cover_alt: "Gazebo showing the simulated house from above with the small blue robot inside, next to RViz showing the robot and its LIDAR scan points along nearby walls."
+cover_caption: "The robot in the simulated house in Gazebo (left) and its LIDAR scan in RViz (right)."
+image: /assets/images/photos/amr-gazebo-rviz.webp
 ---
 
 I designed a custom differential-drive domestic robot and built the full autonomy stack around it: simulation, sensing, state estimation, mapping, localization, navigation, waypoint patrol, recording, and offline analysis.
@@ -23,10 +29,22 @@ The robot combines 2D LIDAR, an IMU, wheel odometry, Extended Kalman Filtering, 
 
 ## Engineering lessons
 
+<figure>
+  <img src="{{ '/assets/images/photos/amr-robot-model.webp' | relative_url }}" alt="The blue rudimentary_bot differential-drive model with grey wheels on a grey Gazebo floor, with a red box in the background." width="583" height="797" loading="lazy" decoding="async" style="max-width: 360px">
+  <figcaption>The custom rudimentary_bot model in Gazebo.</figcaption>
+</figure>
+
 - A front caster-wheel change reduced false LIDAR detections—a reminder that mechanical design and perception cannot be debugged independently.
 - Sensor QoS profiles and the `map → odom → base_link` transform hierarchy had to be made explicit before localization became stable.
 - AMCL parameters and Nav2 lifecycle behavior were tuned for reliable autonomous patrol execution.
 - Recorded patrol data was replayed to reconstruct trajectories and quantify tracking performance.
+
+The final analysis measured a **0.15 m mean path deviation** over the recorded patrol and documented the remaining map–odom jitter under wheel-slip conditions. The public repository includes the ROS 2 workspace, robot description, environments, launch scripts, maps, patrol metadata, exercises, and report sources.
+
+<figure>
+  <img src="{{ '/assets/images/photos/amr-trajectory.webp' | relative_url }}" alt="X-Y plot in metres of the recorded patrol: the planned path in red and the actual path in blue follow each other closely, with jagged spikes in the planned path at turns and waypoints." width="1600" height="1000" loading="lazy" decoding="async">
+  <figcaption>Planned (red) and actual (blue) robot position over the recorded patrol, in metres, plotted in PlotJuggler.</figcaption>
+</figure>
 
 ## Checking against hardware
 
@@ -42,5 +60,3 @@ The project itself was built and analysed in simulation. Alongside it, we tested
     <figcaption>The assembled robot.</figcaption>
   </figure>
 </div>
-
-The final analysis measured a **0.15 m mean path deviation** over the recorded patrol and documented the remaining map–odom jitter under wheel-slip conditions. The public repository includes the ROS 2 workspace, robot description, environments, launch scripts, maps, patrol metadata, exercises, and report sources.
