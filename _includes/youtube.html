@@ -1,0 +1,12 @@
+{%- comment -%}
+Click-to-load YouTube video. Shows a lazy-loaded thumbnail that links to YouTube;
+main.js swaps it for a youtube-nocookie player on click.
+Usage: {% include youtube.html id="VIDEO_ID" title="Video title" %}
+{%- endcomment -%}
+<figure class="video">
+  <a class="video-embed" href="https://www.youtube.com/watch?v={{ include.id }}" data-youtube-id="{{ include.id }}" data-title="{{ include.title | escape }}" aria-label="Play video: {{ include.title | escape }}">
+    <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="" width="480" height="360" loading="lazy" decoding="async">
+    <span class="video-play" aria-hidden="true"></span>
+  </a>
+  <figcaption>{{ include.title }}</figcaption>
+</figure>
