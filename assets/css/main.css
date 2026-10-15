@@ -1387,3 +1387,12 @@ a {
   border-radius: 50%;
   border: 1px solid var(--line);
 }
+
+.photo-pair.screenshots {
+  align-items: start;
+}
+
+.prose .photo-pair.screenshots img {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
