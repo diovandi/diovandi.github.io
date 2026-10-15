@@ -325,6 +325,10 @@ a {
   background: transparent;
 }
 
+.button-icon {
+  flex: none;
+}
+
 .button-secondary:hover {
   border-color: var(--accent-text);
   color: var(--accent-text);
