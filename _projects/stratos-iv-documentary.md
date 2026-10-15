@@ -15,6 +15,12 @@ stack:
   - Story structure
 live_url: https://www.youtube.com/watch?v=GnA4juB8n3k
 live_label: Watch the documentary
+cover: /assets/images/photos/stratos-iv-filming.webp
+cover_width: 1600
+cover_height: 1064
+cover_alt: "Diovandi filming with a camera on a handheld gimbal at the launch site, a van in the background."
+cover_caption: "Filming on the Stratos IV launch campaign, 2021."
+image: /assets/images/photos/stratos-iv-filming.webp
 ---
 
 *Stratos IV: A Journey of Perseverance* follows DARE’s student rocket team through its 2021 launch campaign in Spain. I filmed much of the campaign, directed interviews for the film and worked on early edits. Alex van Roon and Nico Fosseprez completed the final edit, and the film was released in 2025.

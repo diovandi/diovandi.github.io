@@ -17,6 +17,12 @@ stack:
   - SPX-GC graphics
 live_url: https://www.youtube.com/watch?v=GnA4juB8n3k
 live_label: Watch the documentary
+cover: /assets/images/photos/stratos-iv-rocket.webp
+cover_width: 1600
+cover_height: 1060
+cover_alt: "Diovandi in a DARE team shirt standing behind the orange-nosed Stratos IV rocket on its transport cart at the launch site."
+cover_caption: "With Stratos IV at the CEDEA range, Spain, during the 2021 launch campaign."
+image: /assets/images/photos/stratos-iv-rocket.webp
 ---
 
 Stratos IV was a student rocket built by Delft Aerospace Rocket Engineering (DARE). In September and October 2021 the team ran its launch campaign at INTA’s CEDEA range in Moguer, Spain. The rocket did not fly during that campaign, but the attempts still needed live camera views for the people running them and a public broadcast for supporters and sponsors.
@@ -33,6 +39,11 @@ The pad and the base were connected through the site’s existing fibre network,
 - Ran the public YouTube stream from the same setup, with a presenter camera and microphone, the team’s TeamSpeak communications and SPX-GC lower-third graphics.
 - Connected processed telemetry from the electronics team to the graphics, and tested that data path with a simulated input. A teammate decoded the radio telemetry; the rocket did not fly, so the path was never used in flight.
 - Trained members of the PR crew to repeat the setup for later launch attempts.
+
+<figure>
+  <img src="{{ '/assets/images/photos/stratos-iv-team.webp' | relative_url }}" alt="About fifty DARE team members in navy team shirts and face masks posing around the Stratos IV rocket in front of a hangar." width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>The Stratos IV launch campaign team, 2021.</figcaption>
+</figure>
 
 ## The launch-attempt streams
 
