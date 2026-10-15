@@ -45,10 +45,10 @@ The pad and the base were connected through the site’s existing fibre network,
     <img src="{{ '/assets/images/photos/stratos-iv-production-desk.webp' | relative_url }}" alt="The production desk seen from behind a crew member: a monitor shows the OBS camera matrix with bunker, filling-arm and pad views, next to a laptop running the team chat." width="1600" height="1067" loading="lazy" decoding="async">
   </figure>
   <figure>
-    <img src="{{ '/assets/images/photos/stratos-iv-stream-operator.webp' | relative_url }}" alt="A crew member in a headset with a boom microphone working at a laptop, with OBS and the camera multiview on the monitors behind." width="1600" height="1067" loading="lazy" decoding="async">
+    <img src="{{ '/assets/images/photos/stratos-iv-stream-operator.webp' | relative_url }}" alt="Diovandi in a headset with a boom microphone, mask pulled down, working at a laptop, with OBS and the camera multiview on the monitors behind." width="1600" height="1067" loading="lazy" decoding="async">
   </figure>
 </div>
-<p class="photo-pair-caption">The production desk at the range: the OBS camera matrix with the bunker and filling-arm feeds, and the stream position with its headset and microphone.</p>
+<p class="photo-pair-caption">The production desk at the range: the OBS camera matrix with the bunker and filling-arm feeds, and me at the stream position running the broadcast.</p>
 
 ## The launch-attempt streams
 
