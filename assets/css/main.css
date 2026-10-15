@@ -1396,3 +1396,13 @@ a {
   aspect-ratio: auto;
   object-fit: contain;
 }
+
+.prose .photo-pair:has(+ .photo-pair-caption) {
+  margin-bottom: 0.6rem;
+}
+
+.prose .photo-pair-caption {
+  margin: 0 0 2rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
