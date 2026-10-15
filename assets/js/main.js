@@ -69,4 +69,23 @@
       }
     });
   }
+
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest('.video-embed[data-youtube-id]');
+    if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+    event.preventDefault();
+    var frame = document.createElement('div');
+    frame.className = 'video-frame';
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(link.dataset.youtubeId) + '?autoplay=1&rel=0';
+    iframe.title = link.dataset.title || 'YouTube video player';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allowFullscreen = true;
+    frame.appendChild(iframe);
+    link.replaceWith(frame);
+    iframe.focus();
+  });
 })();

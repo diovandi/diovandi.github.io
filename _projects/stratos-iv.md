@@ -34,6 +34,16 @@ The pad and the base were connected through the site’s existing fibre network,
 - Connected processed telemetry from the electronics team to the graphics, and tested that data path with a simulated input. A teammate decoded the radio telemetry; the rocket did not fly, so the path was never used in flight.
 - Trained members of the PR crew to repeat the setup for later launch attempts.
 
+## The launch-attempt streams
+
+These are the public livestreams from the campaign's launch attempts.
+
+{% include youtube.html id="iK-Cbji4JR8" title="Stratos IV launch attempt livestream (1 of 3)" %}
+
+{% include youtube.html id="f9pIYDG2Xpw" title="Stratos IV launch attempt livestream (2 of 3)" %}
+
+{% include youtube.html id="vTfY-ceVEkU" title="Stratos IV launch attempt livestream (3 of 3)" %}
+
 ## A fault we had to solve
 
 During the first dress rehearsal, camera feeds kept dropping out. We read the logs on the Pis over SSH and traced the problem to overheating in direct sunlight. Shading the Pis made the feeds stable again.
