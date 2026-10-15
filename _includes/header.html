@@ -14,6 +14,7 @@
       <a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} aria-current="page"{% endif %}>Blog</a>
       <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} aria-current="page"{% endif %}>CV</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ site.data.profile.github_url }}" rel="me">GitHub <span aria-hidden="true">↗</span></a>
       <a href="{{ '/dashboard/' | relative_url }}" title="Private dashboard" aria-label="Open private opportunity dashboard">Dashboard <span aria-hidden="true">🔒</span></a>
       <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
         <span class="theme-icon" aria-hidden="true">◐</span>
