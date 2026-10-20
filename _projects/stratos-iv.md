@@ -26,7 +26,7 @@ cover_caption: "With Stratos IV at the CEDEA range, Spain, during the 2021 launc
 image: /assets/images/photos/stratos-iv-rocket.webp
 ---
 
-Stratos IV was a student rocket built by Delft Aerospace Rocket Engineering (DARE). In September and October 2021 the team ran its launch campaign at INTA’s CEDEA range near Huelva, Spain. The rocket did not fly during that campaign, but the attempts still needed live camera views for the people running them and a public broadcast for supporters and sponsors.
+Stratos IV was a student rocket built by Delft Aerospace Rocket Engineering (DARE). In September and October 2021 the team ran its launch campaign at INTA’s CEDEA range in Moguer, Spain. The rocket did not fly during that campaign, but the attempts still needed live camera views for the people running them and a public broadcast for supporters and sponsors.
 
 ## Context
 
