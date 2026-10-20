@@ -1,7 +1,7 @@
 ---
 title: "Mechatronics Day: competition livestream"
-summary: Camera, OBS switching, keyed graphics, recording and YouTube streaming for SGU’s multi-day Angkot Master competition, plus training the crew to run it.
-description: Camera, OBS switching, keyed graphics, recording and YouTube streaming for SGU’s multi-day Angkot Master competition, plus training the crew to run it.
+summary: Camera, OBS switching, keyed graphics, recording and YouTube streaming for SGU’s multi-day Angkot Master competition, plus training camera and OBS support while I ran the stream.
+description: Camera, OBS switching, keyed graphics, recording and YouTube streaming for SGU’s multi-day Angkot Master competition, plus training camera and OBS support while I ran the stream.
 order: 5.2
 year: 2024
 date: 2026-10-15
