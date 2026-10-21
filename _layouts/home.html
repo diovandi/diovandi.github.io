@@ -5,8 +5,9 @@ layout: default
   <div class="shell hero-grid">
     <div class="hero-copy">
       <p class="eyebrow"><span class="signal" aria-hidden="true"></span>{{ site.data.profile.eyebrow }}</p>
-      <h1>{{ site.data.profile.headline }}</h1>
+      <h1>{{ site.data.profile.headline }}{% if site.data.profile.headline_accent %} <span class="hero-accent">{{ site.data.profile.headline_accent }}</span>{% endif %}</h1>
       <p class="hero-intro">{{ site.data.profile.intro }}</p>
+      {% if site.data.profile.focus %}<ul class="hero-focus" aria-label="Focus areas">{% for area in site.data.profile.focus %}<li>{{ area }}</li>{% endfor %}</ul>{% endif %}
       <div class="button-row">
         <a class="button button-primary" href="{{ '/projects/' | relative_url }}">See the projects <span aria-hidden="true">→</span></a>
         <a class="button button-secondary" href="{{ site.data.profile.cv_pdf | default: '/cv/' | relative_url }}">Download CV <span aria-hidden="true">↓</span></a>
@@ -42,12 +43,15 @@ layout: default
   </div>
 </section>
 
-<section class="proof-strip" aria-label="Selected outcomes">
+<section class="proof-strip" aria-label="The path so far">
   <div class="shell proof-grid">
-    <div><strong>21</strong><span>reference cases matched by the KST implementation</span></div>
-    <div><strong>€15,625</strong><span>raised by the Stratos IV crowdfunding, where I ran the PR campaign</span></div>
-    <div><strong>200+</strong><span>members represented on DARE’s executive board</span></div>
-    <div><strong>0.15 m</strong><span>mean path deviation in the AMR patrol analysis</span></div>
+    {% for fact in site.data.path %}
+    <a class="proof-item" href="{{ fact.url | relative_url }}">
+      <span class="proof-when">{{ fact.when }}</span>
+      <strong>{{ fact.value }}</strong>
+      <span class="proof-label">{{ fact.label }}</span>
+    </a>
+    {% endfor %}
   </div>
 </section>
 

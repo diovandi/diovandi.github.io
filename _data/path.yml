@@ -1,0 +1,17 @@
+# Homepage navy strip: the path so far, in order. Every fact is stated on the linked page.
+- when: School to graduate
+  value: "4 countries"
+  label: Studied in Qatar, the Netherlands, Indonesia and Germany
+  url: /about/
+- when: 2021 · Delft
+  value: "€15,625"
+  label: Raised for the Stratos IV student rocket; I ran the PR campaign
+  url: /projects/stratos-iv/
+- when: 2022–23 · DARE board
+  value: "200+"
+  label: Members in the rocket society I helped run as Commissioner of External Relations
+  url: /experience/
+- when: 2026 · Graduated
+  value: "2 degrees"
+  label: Mechatronics (thesis 93/100) and Industrial Engineering, finished the same year
+  url: /experience/

@@ -1,6 +1,12 @@
 name: Diovandi
 eyebrow: Applied AI for engineering · mechatronics
-headline: I build AI tools that engineers can check.
+headline: I build AI tools
+headline_accent: that engineers can check.
+focus:
+  - Engineering documents
+  - PLC and control
+  - Mechanical design
+  - Robotics
 intro: >
   I am Diovandi Basheera Putra, a mechatronics engineer who builds applied AI
   for engineering documents and data: extraction pipelines, cited search and

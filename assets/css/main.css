@@ -261,55 +261,27 @@ a {
   color: var(--accent);
 }
 
+/* Earth-from-orbit hero: a navy band in both themes, image rendered by _brand/hero-earth.py. */
 .hero {
+  --hero-ink: var(--brand-offwhite);
+  --hero-soft: #b9c4d6;
+  --hero-line: rgba(250, 249, 246, 0.22);
   position: relative;
   overflow: hidden;
-  padding: clamp(44px, 5vw, 72px) 0 clamp(44px, 5vw, 64px);
-}
-
-/* Planetary horizon arc: one thin curve with a single marker, desktop only. */
-.hero::before,
-.hero::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-}
-
-.hero::before,
-.hero::after {
-  top: -1180px;
-  left: calc(50% + 260px);
-  width: 1500px;
-  height: 1500px;
-  border-radius: 50%;
-}
-
-.hero::before {
-  border: 1px solid var(--line);
-}
-
-/* The marker sits on the arc: same circle, dot drawn at a point on its edge. */
-.hero::after {
-  border-radius: 0;
-  background: radial-gradient(circle at 182px 1239px, var(--accent) 0 3.5px, transparent 4.5px);
+  padding: clamp(40px, 5vw, 76px) 0 clamp(40px, 5vw, 72px);
+  background:
+    linear-gradient(90deg, rgba(6, 16, 34, 0.92) 0%, rgba(6, 16, 34, 0.6) 42%, rgba(6, 16, 34, 0) 70%),
+    url("../images/hero/earth-horizon-1920.webp") 72% 100% / cover no-repeat,
+    #08172f;
+  color: var(--hero-ink);
 }
 
 .hero-grid {
   position: relative;
-}
-
-@media (max-width: 1100px) {
-  .hero::before,
-  .hero::after {
-    display: none;
-  }
-}
-
-.hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(250px, 0.36fr);
+  grid-template-columns: minmax(0, 1fr) minmax(250px, 0.34fr);
   align-items: end;
-  gap: clamp(40px, 6vw, 90px);
+  gap: clamp(32px, 5vw, 80px);
 }
 
 .eyebrow,
@@ -327,33 +299,88 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin: 0 0 28px;
-  color: var(--ink-soft);
+  margin: 0 0 22px;
+  color: var(--hero-soft);
 }
 
 .signal {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background: var(--signal);
+  background: #7fa6ff;
   box-shadow: 0 0 0 5px color-mix(in srgb, var(--signal) 18%, transparent);
 }
 
 .hero h1 {
   max-width: 900px;
   margin: 0;
-  font-size: clamp(2.8rem, 6vw, 4.6rem);
+  font-size: clamp(2.6rem, 4.6vw, 3.9rem);
   font-weight: 500;
   line-height: 1.08;
   letter-spacing: -0.01em;
 }
 
+.hero-accent {
+  display: block;
+  color: #7fa6ff;
+}
+
 .hero-intro {
-  max-width: 680px;
-  margin: 32px 0 0;
-  color: var(--ink-soft);
-  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  max-width: 640px;
+  margin: 22px 0 0;
+  color: var(--hero-soft);
+  font-size: clamp(1rem, 1.4vw, 1.12rem);
   line-height: 1.65;
+}
+
+/* Short rule, then the focus areas in tracked capitals. */
+.hero-focus {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 22px 0 0;
+  padding: 18px 0 0;
+  list-style: none;
+  max-width: none;
+  background: linear-gradient(#7fa6ff, #7fa6ff) 0 0 / 44px 2px no-repeat;
+  color: var(--hero-ink);
+  font-family: var(--label);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.hero-focus li:not(:last-child)::after {
+  content: "·";
+  margin: 0 12px;
+  color: #7fa6ff;
+}
+
+/* Buttons on the navy hero: white primary, outlined secondary. */
+.hero .button {
+  border-color: var(--hero-line);
+  color: var(--hero-ink);
+}
+
+.hero .button-primary {
+  border-color: var(--hero-ink);
+  background: var(--hero-ink);
+  color: var(--brand-navy);
+}
+
+.hero .button-primary:hover {
+  border-color: #7fa6ff;
+  background: #7fa6ff;
+  color: var(--brand-navy);
+}
+
+.hero .button-secondary:hover {
+  border-color: #7fa6ff;
+  color: #7fa6ff;
+}
+
+.hero a:hover {
+  color: #7fa6ff;
 }
 
 .button-row,
@@ -361,7 +388,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 36px;
+  margin-top: 28px;
 }
 
 .button {
@@ -414,24 +441,28 @@ a {
 
 .hero-note {
   position: relative;
-  padding: 26px 0 4px 28px;
-  border-left: 1px solid var(--line-strong);
+  padding: 22px 22px 20px;
+  border: 1px solid var(--hero-line);
+  border-left: 2px solid #7fa6ff;
+  background: rgba(6, 16, 34, 0.55);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: var(--hero-soft);
 }
 
-.hero-note::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -4px;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
+.hero-note .note-label {
+  color: var(--hero-ink);
 }
 
 .hero-note p {
-  margin: 12px 0 18px;
-  font-size: 0.95rem;
+  margin: 10px 0 14px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.hero-note a {
+  color: var(--hero-ink);
+  text-decoration-color: #7fa6ff;
 }
 
 .hero-note a {
@@ -455,7 +486,7 @@ a {
 }
 
 .section {
-  padding: clamp(48px, 6vw, 80px) 0;
+  padding: clamp(40px, 5vw, 64px) 0;
 }
 
 .ruled-section {
@@ -469,7 +500,7 @@ a {
   align-items: end;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .kicker {
@@ -482,7 +513,7 @@ a {
 .article-header h1,
 .not-found h1 {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.01em;
@@ -497,7 +528,7 @@ a {
 
 .project-card {
   position: relative;
-  min-height: 270px;
+  min-height: 240px;
   display: flex;
   flex-direction: column;
   padding: clamp(24px, 3vw, 34px);
@@ -517,7 +548,7 @@ a {
 .card-media {
   position: absolute;
   inset: 0 0 auto;
-  height: 240px;
+  height: 210px;
   overflow: hidden;
   -webkit-mask-image: linear-gradient(to bottom, #000 25%, transparent 88%);
   mask-image: linear-gradient(to bottom, #000 25%, transparent 88%);
@@ -539,7 +570,7 @@ a {
 }
 
 .project-card.has-cover .card-topline {
-  margin-top: 150px;
+  margin-top: 128px;
   margin-bottom: 14px;
 }
 
@@ -692,30 +723,49 @@ a {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.proof-grid > div {
-  min-height: 190px;
+.proof-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 32px;
+  padding: 26px 28px 28px;
   border-left: 1px solid color-mix(in srgb, var(--band-ink) 20%, transparent);
+  text-decoration: none;
+  transition: background 160ms ease;
 }
 
-.proof-grid > div:last-child {
+.proof-item:last-child {
   border-right: 1px solid color-mix(in srgb, var(--band-ink) 20%, transparent);
 }
 
+.proof-item:hover {
+  background: color-mix(in srgb, var(--band-ink) 6%, transparent);
+  color: inherit;
+}
+
+/* The years run left to right, so the strip reads as one path. */
+.proof-when {
+  margin-bottom: 14px;
+  padding-top: 12px;
+  background: linear-gradient(#7fa6ff, #7fa6ff) 0 0 / 24px 2px no-repeat;
+  color: #7fa6ff;
+  font-family: var(--label);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .proof-grid strong {
-  font-size: clamp(2rem, 4vw, 3.7rem);
+  font-size: clamp(1.9rem, 3.2vw, 2.9rem);
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.01em;
+  white-space: nowrap;
 }
 
-.proof-grid span {
-  max-width: 220px;
-  margin-top: 16px;
-  color: color-mix(in srgb, var(--band-ink) 70%, transparent);
+.proof-label {
+  max-width: 250px;
+  margin-top: 12px;
+  color: color-mix(in srgb, var(--band-ink) 72%, transparent);
   font-size: 0.8rem;
   line-height: 1.5;
 }
@@ -727,8 +777,9 @@ a {
 .publication-card {
   display: grid;
   grid-template-columns: 150px minmax(260px, 1.1fr) minmax(280px, 1fr);
-  gap: 28px 48px;
-  padding: 34px 0;
+  grid-template-rows: auto 1fr auto;
+  gap: 10px 48px;
+  padding: 26px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -761,15 +812,38 @@ a {
   color: var(--ink-soft);
 }
 
+.publication-topline {
+  grid-row: 1 / -1;
+}
+
 .publication-card .publication-authors {
   grid-column: 2;
-  margin-top: -18px;
+  grid-row: 2;
+  align-self: start;
   font-size: 0.84rem;
+}
+
+/* Summary sits beside the title, meta under it, so rows don't leave gaps. */
+.publication-card > p:not(.publication-authors) {
+  grid-column: 3;
+  grid-row: 1 / span 2;
 }
 
 .publication-card .publication-meta {
   grid-column: 3;
-  margin-top: -18px;
+  grid-row: 3;
+  margin-top: 0;
+  align-self: start;
+}
+
+/* Status and venue stack in the narrow column instead of wrapping around a stray dot. */
+.publication-card .publication-meta {
+  flex-direction: column;
+  gap: 4px;
+}
+
+.publication-card .publication-meta span + span::before {
+  content: none;
 }
 
 .publication-header .publication-authors {
@@ -1002,7 +1076,7 @@ a {
 /* Index pages use h2 card titles for heading order; keep the look they had as h3. */
 .prose .project-card > h2,
 .prose .publication-card > h2 {
-  margin: 2em 0 0.5em;
+  margin: 0;
   font-size: 1.3rem;
 }
 
@@ -1218,21 +1292,28 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .proof-grid > div:nth-child(3) {
-    border-top: 1px solid color-mix(in srgb, var(--paper) 20%, transparent);
+  .proof-item:nth-child(n + 3) {
+    border-top: 1px solid color-mix(in srgb, var(--band-ink) 20%, transparent);
   }
 
-  .proof-grid > div:nth-child(4) {
-    border-top: 1px solid color-mix(in srgb, var(--paper) 20%, transparent);
+  .proof-item:nth-child(2) {
+    border-right: 1px solid color-mix(in srgb, var(--band-ink) 20%, transparent);
   }
 
   .publication-card {
     grid-template-columns: 110px minmax(0, 1fr);
+    grid-template-rows: none;
+  }
+
+  .publication-topline {
+    grid-row: span 4;
   }
 
   .publication-card > p,
+  .publication-card > p:not(.publication-authors),
   .publication-card .publication-meta {
     grid-column: 2;
+    grid-row: auto;
   }
 
   .education-grid {
@@ -1330,7 +1411,22 @@ a {
   }
 
   .hero {
-    padding-top: 56px;
+    padding: 36px 0 32px;
+    background:
+      linear-gradient(180deg, rgba(6, 16, 34, 0.92) 0%, rgba(6, 16, 34, 0.75) 50%, rgba(6, 16, 34, 0.2) 100%),
+      url("../images/hero/earth-horizon-1920.webp") 66% 100% / auto 640px no-repeat,
+      #08172f;
+  }
+
+  /* The intro already names the focus areas; keep the phone hero short. */
+  .hero-focus {
+    display: none;
+  }
+
+  .note-portrait {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 12px;
   }
 
   .eyebrow {
@@ -1374,14 +1470,24 @@ a {
     margin-top: 120px;
   }
 
-  .proof-grid,
   .recognition-grid {
     grid-template-columns: 1fr;
   }
 
-  .proof-grid > div {
-    min-height: 155px;
-    border-top: 1px solid color-mix(in srgb, var(--paper) 20%, transparent);
+  .proof-grid {
+    width: 100%;
+  }
+
+  .proof-item {
+    padding: 20px 16px 22px;
+  }
+
+  .proof-grid strong {
+    font-size: 1.65rem;
+  }
+
+  .proof-label {
+    font-size: 0.75rem;
   }
 
   .publication-card {
@@ -1391,9 +1497,11 @@ a {
 
   .publication-card > *,
   .publication-card > p,
+  .publication-card > p:not(.publication-authors),
   .publication-card .publication-authors,
   .publication-card .publication-meta {
     grid-column: 1;
+    grid-row: auto;
     margin-top: 0;
   }
 
