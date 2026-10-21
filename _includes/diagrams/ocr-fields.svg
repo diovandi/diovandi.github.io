@@ -1,0 +1,32 @@
+<svg class="dg" viewBox="0 0 520 404" role="img" aria-labelledby="ocr-f-t ocr-f-d">
+  <title id="ocr-f-t">Four things the dashboard keeps separate for each job</title>
+  <desc id="ocr-f-d">Fit records the decision (apply now, investigate, monitor or skip) and how each requirement matches: strong, partial or gap. Listing status says whether the listing is open on the employer's site, listed on a board, closing soon, closed or needs a check, with a source link and check date. Employer identity is verified, likely or unclear. Application stage runs from discovered and shortlisted to applied, screen, interview and offer. A ready CV and letter pack does not change the stage.</desc>
+  {% include diagrams/_style.html %}
+  <rect class="dg-box" x="0" y="0" width="252" height="150"/>
+  <text class="dg-k" x="16" y="28">Fit</text>
+  <text class="dg-t" x="16" y="58">Apply now · Investigate</text>
+  <text class="dg-t" x="16" y="80">Monitor · Skip</text>
+  <text class="dg-s" x="16" y="110">Each requirement:</text>
+  <text class="dg-s" x="16" y="130">strong, partial or gap</text>
+  <rect class="dg-box" x="268" y="0" width="252" height="150"/>
+  <text class="dg-k" x="284" y="28">Listing</text>
+  <text class="dg-t" x="284" y="58">Open · employer</text>
+  <text class="dg-t" x="284" y="80">Listed · board · Closed</text>
+  <text class="dg-s" x="284" y="110">Closing soon or Needs check,</text>
+  <text class="dg-s" x="284" y="130">with source link and check date</text>
+  <rect class="dg-box" x="0" y="166" width="252" height="150"/>
+  <text class="dg-k" x="16" y="194">Employer</text>
+  <text class="dg-t" x="16" y="224">Verified · Likely</text>
+  <text class="dg-t" x="16" y="246">Unclear</text>
+  <text class="dg-s" x="16" y="276">Is this really the company</text>
+  <text class="dg-s" x="16" y="296">behind the listing?</text>
+  <rect class="dg-hl" x="268" y="166" width="252" height="150"/>
+  <text class="dg-k" x="284" y="194">Application</text>
+  <text class="dg-t" x="284" y="224">Discovered · Shortlisted</text>
+  <text class="dg-t" x="284" y="246">Applied · Screen</text>
+  <text class="dg-t" x="284" y="268">Interview · Offer</text>
+  <text class="dg-s" x="284" y="296">Where the application stands</text>
+  <text class="dg-n" x="0" y="350">A ready CV and letter pack doesn’t change the stage.</text>
+  <text class="dg-s" x="0" y="374">A strong fit can still have a closed listing, and an open listing</text>
+  <text class="dg-s" x="0" y="394">can still be a poor fit. Mixing them makes the totals meaningless.</text>
+</svg>

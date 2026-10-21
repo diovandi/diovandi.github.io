@@ -43,7 +43,9 @@ SGU teaches the program with a system approach: you start from a whole machine, 
 
 ## Teaching-assistant laboratories
 
-As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I facilitated PLC and microcontroller labs, and supported experiments with sensors, actuators, robotic arms, pneumatics, and control experiments. I also tutored Differential Equations and mentored teams at SGU Mechatronics Day 2025. The work meant grading assessments, helping students troubleshoot hardware, maintaining lab equipment, and preparing demonstrations and manuals.
+As a mechatronics teaching assistant at Swiss German University (September 2025 to September 2026), I facilitated PLC and microcontroller labs, and supported experiments with sensors, actuators, robotic arms, pneumatics, and control experiments. In the PLC labs I used sequential function charts to help students see what their task needed to do before structuring the program, and I ran electro-pneumatics labs with actuators, solenoids and limit switches. I also mentored teams at SGU Mechatronics Day 2025 with technical questions, soldering and practical help. The work also meant grading assessments with rubrics, helping students troubleshoot hardware, maintaining lab equipment, and preparing demonstrations and manuals.
+
+Separately, I ran an exam revision session on differential equations for about twenty students. One thing they were confused about was the purpose of the Laplace transform: why do it in the first place? I explained it through a difficult problem that becomes easier to solve once you transform it, so the point was what the transform lets you do as well as how to calculate it. The lecturer provided the worksheet; I made the answer key and prepared the theory behind it.
 
 ## See also
 
