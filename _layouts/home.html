@@ -69,6 +69,8 @@ layout: default
   </div>
 </section>
 
+{% comment %}The blog section and nav link appear once there are three posts.{% endcomment %}
+{% if site.posts.size >= 3 %}
 <section class="section ruled-section notes-section" aria-labelledby="latest-notes">
   <div class="shell">
     <div class="section-heading">
@@ -92,3 +94,4 @@ layout: default
     <a class="button button-secondary mobile-button" href="{{ '/blog/' | relative_url }}">View all posts</a>
   </div>
 </section>
+{% endif %}
