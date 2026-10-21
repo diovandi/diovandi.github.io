@@ -1,6 +1,30 @@
+# Licence
+
+This repository holds two kinds of material under different terms.
+
+## Content: all rights reserved
+
+The written content, CV, photographs, images, diagrams, logo and brand assets of
+diovandi.com (including everything in `_projects/`, `_publications/`, `_posts/`,
+`_data/`, the Markdown pages, `assets/images/`, `assets/brand/` and `assets/cv/`)
+are Copyright (c) 2024-present Diovandi Basheera Putra. All rights reserved.
+Photographs that show other people, or were taken by others, remain subject to
+their rights. Do not reuse this content without written permission.
+
+## Code: MIT License
+
+The site code (layouts, includes, stylesheets, scripts and configuration) is
+released under the MIT License below. This repository started from a website
+template by George Cushen; his copyright notice is kept as the MIT License
+requires.
+
+The fonts in `assets/fonts/` keep their own licence, the SIL Open Font
+License (`assets/fonts/OFL.txt`).
+
 MIT License
 
 Copyright (c) 2016-present George Cushen
+Copyright (c) 2024-present Diovandi Basheera Putra
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

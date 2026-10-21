@@ -30,7 +30,7 @@ The main system I built tracks every document a compliance project needs and wha
 - import of the team's existing Excel regulatory checklists instead of retyping them;
 - file storage in Google Drive, where the team already keeps its documents.
 
-The system is built and browser-tested locally; it has not been deployed to the whole office.
+I led the design and build, and the system is now in internal use.
 
 ## Procurement and budget app
 
@@ -40,6 +40,6 @@ The office runs its purchasing on an internal app built mostly by a colleague. I
 
 - Claude skills that produce on-brand company documents and meeting minutes, later merged into the company repository.
 - A knowledge graph of company material, with integrity checks, used as a navigation aid.
-- A checklist-compliance checker for import/export and AMDAL environmental requirements, taken to trial stage.
+- A checklist-compliance checker for import/export and AMDAL environmental requirements, which I led and which is now in internal use.
 
 The code is internal, so this page describes the system and my part in it without company data or source. For how human review shapes these systems, see the [case study]({{ '/projects/human-reviewed-ai-document-workflows/' | relative_url }}).

@@ -95,3 +95,18 @@ Use this as a collection queue. Do not wait until every box is complete before i
 - [ ] Every external asset has permission and attribution
 - [ ] Links open without requiring a private account
 - [ ] Names, dates, units, and numbers are consistent across the site and CV
+
+## Open items moved from page comments
+
+Human-reviewed AI document workflows (`_projects/human-reviewed-ai-document-workflows.md`):
+
+- [ ] Confirm the contribution statement, and name anything that was a teammate's
+- [ ] Add 2–3 redacted screenshots (no client names, permit numbers or people), for example a review queue
+- [ ] Add a "Lessons" section in your own words, if you want one
+
+Control & Automation (`_projects/control-and-automation.md`):
+
+- [ ] Describe the ATMI control-panel exercise: scope, what you wired or programmed, how it was tested
+- [ ] One or two sentences on a specific PLC program you wrote: inputs and outputs, sequence, test
+- [ ] Name the SMSCP modules
+- [ ] Photo of the control panel or HMI, and one or two lab photos you own (no faces or names without permission)

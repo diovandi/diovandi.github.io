@@ -80,5 +80,7 @@ exclude:
   - README.md
   - CONTENT_CHECKLIST.md
   - LICENSE.md
+  - assets/brand/README.md
+  - assets/brand/references
   - templates
   - vendor

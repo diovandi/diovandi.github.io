@@ -53,7 +53,7 @@ Use [`CONTENT_CHECKLIST.md`](CONTENT_CHECKLIST.md) to collect project images, en
 ## Search and sharing
 
 - Page titles, descriptions, Open Graph tags and the sitemap come from `jekyll-seo-tag` and `jekyll-sitemap`. Give every page a `description` of about 150 characters.
-- The default share image is `assets/images/og-card.png` (1200 × 630). A page can override it with `image:` in its front matter.
+- The default share image is `assets/images/og-card.png` (1200 × 630). A page can override it with `image:` in its front matter; use a 1200 × 630 JPEG or PNG (see `assets/images/share/`), because some sites do not show WebP or portrait previews.
 - Person structured data for the home and About pages lives in `_includes/person-schema.html`.
 - To verify the site in Google Search Console, paste the HTML-tag token into `google_site_verification` in `_config.yml`, then submit `https://diovandi.com/sitemap.xml`.
 

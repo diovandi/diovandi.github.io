@@ -21,7 +21,7 @@ cover_width: 1600
 cover_height: 573
 cover_alt: "Gazebo showing the simulated house from above with the small blue robot inside, next to RViz showing the robot and its LIDAR scan points along nearby walls."
 cover_caption: "The robot in the simulated house in Gazebo (left) and its LIDAR scan in RViz (right)."
-image: /assets/images/photos/amr-gazebo-rviz.webp
+image: /assets/images/share/amr-gazebo-rviz.jpg
 ---
 
 I designed a custom differential-drive domestic robot and built the full autonomy stack around it: simulation, sensing, state estimation, mapping, localization, navigation, waypoint patrol, recording, and offline analysis.

@@ -23,7 +23,7 @@ cover_height: 1200
 cover_position: "center 35%"
 cover_alt: "The LeaTop morphing leading-edge demonstrator: a curved composite skin around an internal linkage and actuator on an aluminium base."
 cover_caption: "The LeaTop demonstrator that Group D03 analysed. Figure from our D03 paper."
-image: /assets/images/photos/d03-leatop-demonstrator.webp
+image: /assets/images/share/d03-leatop-demonstrator.jpg
 ---
 
 Group D03 evaluated the mechanical effectiveness and structural behavior of TU Delft's LeaTop morphing leading-edge demonstrator.

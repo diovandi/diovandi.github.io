@@ -19,7 +19,7 @@ cover_width: 1050
 cover_height: 1400
 cover_alt: "The Bamantara EEPISAT team and Antarexxa mentors, including Diovandi, standing around a CanSat competition display rocket in a conference room."
 cover_caption: "With the Bamantara EEPISAT team at the 2024 CanSat Competition in Virginia, USA."
-image: /assets/images/photos/cansat-2024-team.webp
+image: /assets/images/share/cansat-2024-team.jpg
 ---
 
 Several projects connected my technical aerospace background with program development.

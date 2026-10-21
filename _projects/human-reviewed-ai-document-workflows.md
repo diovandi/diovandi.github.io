@@ -21,12 +21,6 @@ stack:
   - AppSheet
 ---
 
-<!--
-  TODO(Dio) before merging:
-  - Confirm the contribution statement, and name anything that was a teammate's.
-  - Add 2–3 redacted screenshots (no client names, permit numbers, or people).
--->
-
 ## The problem
 
 Operational documents, including government permits, lived in shared folders. Turning them into searchable records by hand is slow, and letting an AI fill those records alone is too risky when they carry legal consequences. The goal was faster retrieval without giving up human accountability.
@@ -40,13 +34,6 @@ AI does the reading; people make the decisions. The system extracts metadata, fl
   <figcaption>System architecture, simplified. No company data is shown.</figcaption>
 </figure>
 
-<!-- TODO(Dio): add 2–3 redacted screenshots here, e.g.
-<figure>
-  <img src="{{ '/assets/images/case-studies/review-queue-redacted.webp' | relative_url }}" alt="…">
-  <figcaption>…</figcaption>
-</figure>
--->
-
 ## Built versus deployed
 
 | Component | Status |
@@ -54,23 +41,20 @@ AI does the reading; people make the decisions. The system extracts metadata, fl
 | Permit metadata extraction (Apps Script + Gemini 2.0 Flash) with human verification and AppSheet review views | Built; production deployment was pending when the internship ended in March 2026 |
 | Cited document Q&A over Google Drive (Vertex AI Search) | Prototyped |
 | Document-status assistant (Python/Flask on Cloud Run, via WhatsApp) | Designed and presented; live use not verified |
-| Versioned document-control and readiness tracking (Cloudflare Workers + D1) | Implemented and locally tested; production acceptance not yet confirmed |
-| Checklist-compliance checker for import/export and environmental (AMDAL) requirements | In trials; not yet used by real users |
+| Versioned document-control and readiness tracking (Cloudflare Workers + D1) | Built; now in internal use |
+| Checklist-compliance checker for import/export and environmental (AMDAL) requirements | Built; now in internal use |
 | Meeting-transcription pipeline (Whisper) | Built |
 
 There is no measured time-saving baseline yet, so this page makes no efficiency claims. The work was presented to company leadership on 2 March 2026.
 
 ## My contribution
 
-<!-- TODO(Dio): confirm this sentence. -->
-I built the permit-extraction workflow with its human-review step and AppSheet views, prototyped the cited Q&A, and designed the document-status assistant during my internship (January to March 2026). As Strategic Technical Advisor from August to October 2026, I specified and implemented the document-control system and took the compliance checker to trials.
+I built the permit-extraction workflow with its human-review step and AppSheet views, prototyped the cited Q&A, and designed the document-status assistant during my internship (January to March 2026). As Strategic Technical Advisor from August to October 2026, I led the document-control system and the checklist-compliance checker, both now in internal use.
 
-## Lessons
+## Design principles
 
-<!-- TODO(Dio): these are drafted from the design priorities; replace with what you actually learned. -->
-- **Review is a design feature, not a fallback.** Deciding which fields need a person shapes the whole data model.
-- **Show the source.** An answer that links back to its document is easier to check than one that only sounds confident.
-- **Meet people where they already work.** The tools ran in a dashboard and a chat channel rather than a new application.
-- **Access control is part of the architecture.** Ownership of the shared drives had to be settled before any AI could read them.
+- **Review is part of the design.** The system flags the fields it is unsure of, and a reviewer approves each record before anyone relies on it.
+- **Show the source.** Answers come from approved records or source files, with a citation back to the document.
+- **Access follows ownership.** Google Groups and Shared Drives set who owns and can read each department's files.
 
 Company documents, client names, and identifiers are deliberately left out. The document-control system and other internal tools are described in [Compliance Document Control & Internal Tools]({{ '/projects/compliance-document-control/' | relative_url }}).
