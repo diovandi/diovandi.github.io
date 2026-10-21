@@ -14,8 +14,10 @@ A downloadable CV is available on request. Please reach out on [LinkedIn]({{ sit
 ## In short
 
 - **Recent:** Strategic Technical Advisor at SAG, August to 25 October 2026. Open to applied AI, digital engineering and automation roles from November 2026, in Doha, South Tangerang or remote.
-- **Education:** S.T. in Mechanical Engineering (Mechatronics), Swiss German University, with a double-degree semester at FH Südwestfalen; earlier aerospace engineering coursework at TU Delft.
+- **Education:** S.T. Mechanical Engineering (Mechatronics), Swiss German University, 2026 (GPA 3.29; thesis 93/100). BEng Industrial Engineering, FH Südwestfalen, 2026 (grade 1.7, double degree). Earlier aerospace engineering coursework at TU Delft.
+- **Certification:** Siemens Mechatronic Systems Certification Program (SMSCP), Assistant level, SITRAIN, November 2025.
 - **Focus:** AI-assisted engineering-document and data workflows with human review, grounded in PLC and control systems, mechanical design, and robotics.
 - **Also:** live video production (networked camera views, OBS, documentary filming) and lab support (3D-printer calibration and maintenance, OctoPrint, student project advice).
+{% if site.data.profile.email %}- **Contact:** [{{ site.data.profile.email }}](mailto:{{ site.data.profile.email }}) · [LinkedIn]({{ site.data.profile.linkedin_url }}){% endif %}
 
 The full timeline is on the [Experience]({{ '/experience/' | relative_url }}) page.
