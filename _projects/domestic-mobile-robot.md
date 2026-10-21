@@ -35,10 +35,26 @@ The robot combines 2D LIDAR, an IMU, wheel odometry, Extended Kalman Filtering, 
   <figcaption>The custom rudimentary_bot model in Gazebo.</figcaption>
 </figure>
 
-- A front caster-wheel change reduced false LIDAR detections—a reminder that mechanical design and perception cannot be debugged independently.
-- Sensor QoS profiles and the `map → odom → base_link` transform hierarchy had to be made explicit before localization became stable.
-- AMCL parameters and Nav2 lifecycle behavior were tuned for reliable autonomous patrol execution.
-- Recorded patrol data was replayed to reconstruct trajectories and quantify tracking performance.
+### A wall that wasn’t there
+
+One issue was a false wall appearing in the map. When the simulated robot braked, its chassis pitched forward and the LiDAR hit the ground. Changing the sensor range could hide some of those detections, but the robot would still be pitching. Adding a front caster stabilized the chassis and dealt with the cause.
+
+### One publisher per transform
+
+The ROS components also had to agree on where the robot was. The EKF publishes `odom → base_link` and AMCL publishes `map → odom`. Each of those relationships needs exactly one publisher; otherwise every component can be running while giving conflicting descriptions of the robot’s position.
+
+<figure class="diagram">
+  {% include diagrams/amr-transforms.svg %}
+  <figcaption>The localization transform chain and the node that owns each link.</figcaption>
+</figure>
+
+AMCL parameters and Nav2 lifecycle behaviour were then tuned for the waypoint patrol.
+
+### Replaying the patrol
+
+For the patrol analysis, I compared the planned path with filtered odometry transformed into the map frame. The frame and the playback clock had to line up for that comparison to mean anything.
+
+Playback brought up a separate issue: the wheels appeared detached from the robot in RViz, because the recording didn’t include the dynamic joint states needed to display them. A separate robot description for analysis treats the wheel joints as fixed, so the robot can be shown with the data that exists. That fixed the display; it didn’t recover the missing wheel-motion measurements.
 
 The final analysis measured a **0.15 m mean path deviation** over the recorded patrol and documented the remaining map–odom jitter under wheel-slip conditions. The public repository includes the ROS 2 workspace, robot description, environments, launch scripts, maps, patrol metadata, exercises, and report sources.
 

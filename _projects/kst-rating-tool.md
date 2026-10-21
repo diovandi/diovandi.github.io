@@ -28,6 +28,17 @@ This bachelor’s thesis turns a manually prepared MATLAB analysis into a reprod
 
 The implementation reproduces Rusli’s higher-order-constraint method and reports motion-resolved assembly ratings such as Weakest Total Resistance, Mean Redundancy Ratio, Mean Total Resistance, and Trade-Off Ratio.
 
+Leonard Rusli developed the analytical method and provided the original reference material. My work covered the Python implementation, Fusion integration, reference cases, optimization experiments and reports.
+
+## Getting the geometry into the analysis
+
+You select geometry in Fusion, the add-in writes an input file, and an external Python process runs the analysis and produces numerical and HTML reports. Having that file in between is useful because you can open it and see what was actually sent to the solver, and replay it outside Fusion. If a CAD example doesn’t match a reference case, the coordinates, directions, constraint types and units are there to compare.
+
+<figure class="diagram">
+  {% include diagrams/kst-pipeline.svg %}
+  <figcaption>The versioned JSON file sits between Fusion 360 and the evaluator, so any analysis can be inspected and replayed from the command line.</figcaption>
+</figure>
+
 ## Evidence and scope
 
 - The Python workflow matched the MATLAB reference across **21 benchmark cases** within defined numerical tolerances.
@@ -48,8 +59,37 @@ On the printer-housing example, 23 point, pin and line constraints captured in F
   </figure>
 </div>
 
+## Checking the numbers
+
+The Python implementation was checked against MATLAB/Octave reference cases: 21 cases and four metrics, with an absolute tolerance of 0.001 and a relative tolerance of 5%.
+
+The later manuscript review turned up a problem in the saved evidence: an old comparison CSV still contained superseded mismatch values. The comparison was rebuilt from saved solver outputs. For one end-cap case, the saved Python and Octave results used different constraint-model settings, so a matching Python branch was evaluated. The original files were kept, along with a note of which settings each one used.
+
+So the package supports agreement across 21 comparable cases, combining saved outputs with that matching branch evaluation; both solvers weren’t rerun across the full set. It shows the implementation reproduces the reference calculations. Testing an actual assembly would be a separate step.
+
+## How many times do you need to run the solver?
+
+Every candidate arrangement in an optimization needs its own analysis. Constant Interval Search (CIS) checks a uniform grid: eleven points in each of two directions is 121 solver evaluations, and the count grows quickly with every extra variable.
+
+The project compared finite differences, machine-learning surrogates and Differential Evolution (DE). For the surrogates there were two different questions: can a model learn the response of one assembly, and can it predict a new one? A model can fit a sampled case well and still transfer poorly. Training data has a cost too. If you need 121 solver calls to train a model for one assembly, you’ve already paid for the grid search before using the model.
+
+DE became the selected method for the bounded line-search problem. It changes where it samples, while each candidate still goes through the same deterministic KST evaluator.
+
+<figure class="diagram">
+  {% include diagrams/kst-evaluations.svg %}
+  <figcaption>Saved two-dimensional printer-housing run. Each evaluation is one call to the same KST evaluator. DE used fewer calls in exchange for a slightly lower rating.</figcaption>
+</figure>
+
+That comparison needed a correction as well. An earlier version used different evaluators for CIS and DE, which made CIS appear to fail. Once both used the same full objective, the result was more specific: DE got close to the grid result with fewer evaluations in the relevant two-dimensional cases. For a cheap one-dimensional case, CIS needed fewer evaluations.
+
 The claim is deliberately narrow: this is an early-stage rigid-body constraint-layout method. It does not replace finite-element analysis or physical validation for stress, fatigue, preload loss, compliance, or joint failure.
 
 ## What I built
 
 I led the Python reimplementation, CAD data contract, Fusion 360 integration, benchmark migration, optimization experiments, report generation, and reproducibility work. The maintained public repository contains the backend, add-in, fixtures, tests, and command-line tools without the private thesis working archive.
+
+## Where AI came in
+
+I used AI a lot at the beginning for code exploration and generation, and also for literature discovery, initial drafts and figures. Later I wrote and corrected more of the code myself, to understand it and to fix mistakes in the generated implementation. For the figures, I directed what I wanted to show, and I rewrote draft text in my own words.
+
+There is substantial AI-written code in the project. The reference comparisons, saved inputs and reports are part of how that work was checked, and the manuscript, which is in preparation for submission, discloses the assistance.

@@ -25,7 +25,13 @@ image: /assets/images/share/drives-ac-speed-step.jpg
 
 This project studies closed-loop speed and torque control for an armature-controlled DC motor and a three-phase squirrel-cage induction motor using indirect field-oriented control.
 
-I built authoritative models in MATLAB R2025b and Simulink, with averaged converter and inverter stages because Simscape Electrical was unavailable in the working environment. A separate NumPy/SciPy implementation provides an independent numerical check for the DC response.
+I built authoritative models in MATLAB R2025b and Simulink, using cascaded speed and current PI control for the DC drive and indirect field-oriented control for the induction motor.
+
+## What the models leave out
+
+Simscape Electrical wasn’t available, so the converter and inverter stages are averaged voltage models with saturation limits. That is enough to study how the controllers respond to speed steps, load changes and torque commands, inside modelled current limits with anti-windup. It leaves out switching effects such as dead time and semiconductor losses.
+
+A separate SciPy calculation in the repository checks the DC speed-step result against the MATLAB export. That check compares final speed; it doesn’t check the whole transient or the induction-motor model, and none of this establishes hardware performance.
 
 ## Reproducible experiment set
 

@@ -1,0 +1,23 @@
+<svg class="dg" viewBox="0 0 520 236" role="img" aria-labelledby="kst-eval-t kst-eval-d">
+  <title id="kst-eval-t">Solver evaluations in the saved two-dimensional printer run</title>
+  <desc id="kst-eval-d">Constant Interval Search on an 11 by 11 grid used 121 evaluations. Differential Evolution used 48 search evaluations plus 1 final verification call, 49 in total. Its best rating was about 2.3 percent below the grid result.</desc>
+  {% include diagrams/_style.html %}
+  <text class="dg-k" x="0" y="16">Solver evaluations</text>
+  <line class="dg-grid" x1="0" y1="34" x2="0" y2="186"/>
+  <line class="dg-grid" x1="120" y1="34" x2="120" y2="186"/>
+  <line class="dg-grid" x1="240" y1="34" x2="240" y2="186"/>
+  <line class="dg-grid" x1="360" y1="34" x2="360" y2="186"/>
+  <text class="dg-s" x="0" y="204">0</text>
+  <text class="dg-s" x="120" y="204" text-anchor="middle">40</text>
+  <text class="dg-s" x="240" y="204" text-anchor="middle">80</text>
+  <text class="dg-s" x="360" y="204" text-anchor="middle">120</text>
+  <text class="dg-t" x="0" y="52">Grid search (CIS), 11 × 11</text>
+  <rect class="dg-bar-muted" x="0" y="62" width="363" height="28"><title>Grid search: 121 evaluations</title></rect>
+  <text class="dg-t" x="371" y="82">121</text>
+  <text class="dg-t" x="0" y="128">Differential Evolution</text>
+  <rect class="dg-bar" x="0" y="138" width="144" height="28"><title>Differential Evolution: 48 search evaluations</title></rect>
+  <rect class="dg-bar-ghost" x="146" y="138.75" width="3" height="26.5"><title>1 final verification call</title></rect>
+  <text class="dg-t" x="157" y="158">48 + 1</text>
+  <text class="dg-s" x="208" y="158">search + final check</text>
+  <text class="dg-n" x="0" y="230">DE’s best rating: about 2.3% below the grid result</text>
+</svg>

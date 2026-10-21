@@ -1,0 +1,22 @@
+<svg class="dg" viewBox="0 0 520 300" role="img" aria-labelledby="amr-tf-t amr-tf-d">
+  <title id="amr-tf-t">Who publishes each transform in the robot's localization</title>
+  <desc id="amr-tf-d">AMCL publishes the transform from the map frame to the odom frame. The EKF, which fuses wheel odometry and the IMU, publishes the transform from odom to base_link. Each transform has exactly one publisher.</desc>
+  {% include diagrams/_style.html %}
+  <defs><marker id="amr-tf-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-head" d="M0 0L10 5L0 10z"/></marker></defs>
+  <rect class="dg-box" x="0" y="0" width="180" height="62"/>
+  <text class="dg-t" x="90" y="37" text-anchor="middle">map</text>
+  <path class="dg-a" d="M90 62V112" marker-end="url(#amr-tf-h)"/>
+  <rect class="dg-box" x="0" y="118" width="180" height="62"/>
+  <text class="dg-t" x="90" y="155" text-anchor="middle">odom</text>
+  <path class="dg-a" d="M90 180V230" marker-end="url(#amr-tf-h)"/>
+  <rect class="dg-box" x="0" y="236" width="180" height="62"/>
+  <text class="dg-t" x="90" y="273" text-anchor="middle">base_link</text>
+  <rect class="dg-hl" x="250" y="56" width="270" height="68"/>
+  <text class="dg-t" x="266" y="86">AMCL</text>
+  <text class="dg-s" x="266" y="108">Matches LiDAR scans to the map</text>
+  <path class="dg-a dg-d" d="M250 90H96"/>
+  <rect class="dg-hl" x="250" y="174" width="270" height="68"/>
+  <text class="dg-t" x="266" y="204">EKF</text>
+  <text class="dg-s" x="266" y="226">Fuses wheel odometry and the IMU</text>
+  <path class="dg-a dg-d" d="M250 208H96"/>
+</svg>

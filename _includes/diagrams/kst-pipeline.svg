@@ -1,0 +1,27 @@
+<svg class="dg" viewBox="0 0 520 452" role="img" aria-labelledby="kst-pipe-t kst-pipe-d">
+  <title id="kst-pipe-t">From CAD selection to KST report</title>
+  <desc id="kst-pipe-d">The Fusion 360 add-in writes the selected constraints to a versioned JSON file. A separate Python process reads that file, runs the KST evaluator and writes numerical and HTML reports. The same JSON file can be replayed from the command line without Fusion 360.</desc>
+  {% include diagrams/_style.html %}
+  <defs><marker id="kst-pipe-h" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="dg-head" d="M0 0L10 5L0 10z"/></marker></defs>
+  <rect class="dg-box" x="10" y="10" width="300" height="76"/>
+  <text class="dg-t" x="26" y="42">Fusion 360 add-in</text>
+  <text class="dg-s" x="26" y="66">Select point, pin, line and plane constraints</text>
+  <path class="dg-a" d="M160 86V126" marker-end="url(#kst-pipe-h)"/>
+  <rect class="dg-hl" x="10" y="130" width="300" height="76"/>
+  <text class="dg-t" x="26" y="162">Versioned JSON input</text>
+  <text class="dg-s" x="26" y="186">Coordinates, directions, types, units</text>
+  <text class="dg-n" x="172" y="232">Open it and check it</text>
+  <path class="dg-a" d="M160 206V246" marker-end="url(#kst-pipe-h)"/>
+  <rect class="dg-box" x="10" y="250" width="300" height="76"/>
+  <text class="dg-t" x="26" y="282">Python KST evaluator</text>
+  <text class="dg-s" x="26" y="306">Separate process, deterministic</text>
+  <path class="dg-a" d="M160 326V366" marker-end="url(#kst-pipe-h)"/>
+  <rect class="dg-box" x="10" y="370" width="300" height="76"/>
+  <text class="dg-t" x="26" y="402">Numerical and HTML reports</text>
+  <text class="dg-s" x="26" y="426">WTR, MRR, MTR, TOR</text>
+  <rect class="dg-box" x="350" y="190" width="160" height="76"/>
+  <text class="dg-t" x="366" y="222">CLI replay</text>
+  <text class="dg-s" x="366" y="246">Same file, no Fusion</text>
+  <path class="dg-a dg-d" d="M310 168H430V186" marker-end="url(#kst-pipe-h)"/>
+  <path class="dg-a dg-d" d="M430 266V288H314" marker-end="url(#kst-pipe-h)"/>
+</svg>
