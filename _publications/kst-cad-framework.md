@@ -8,7 +8,7 @@ order: 1
 year: 2026
 date: 2026-07-24
 kind: Research manuscript
-status: Manuscript / preprint
+status: Manuscript in preparation
 venue: Swiss German University
 authors: Leonard P. Rusli and Diovandi Basheera Putra
 repository: https://github.com/diovandi/kst-rating-tool
