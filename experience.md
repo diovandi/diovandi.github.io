@@ -51,7 +51,7 @@ description: Experience across AI and software tooling, PLC and mechatronics tea
 <div class="recognition-grid">
   <article><strong>Siemens SMSCP</strong><span>Mechatronic Systems Certification Program, Assistant level (SITRAIN, 2025)</span></article>
   <article><strong>2nd place</strong><span>EBEC Challenge Delft 2023, Case Study category</span></article>
-  <article><strong>€15,625+</strong><span>Stratos IV crowdfunding campaign</span></article>
+  <article><strong>€15,625</strong><span>Stratos IV crowdfunding, 130% of its €12,000 goal (PR campaign lead)</span></article>
   <article><strong>2024</strong><span>Head of Education &amp; Academics, HMJ Mechatronics (SGU student association)</span></article>
   <article><strong>Nov 2025</strong><span>Mentor at SGU Mechatronics Day</span></article>
 </div>

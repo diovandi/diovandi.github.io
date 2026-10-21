@@ -69,7 +69,9 @@ The dropouts also showed why remote recovery mattered. I could restart a stream 
 
 ## The wider campaign
 
-Alongside the video work, I helped run the crowdfunding campaign that raised more than **€15,625**, standardised the visual and social-media guidelines, produced photo and video material, and delivered communications commitments for partners including Airbus, Arianespace, NLR and Teijin. The [Stratos IV crowdfunding page](https://www.supporttudelft.nl/project/stratosiv?locale=en) preserves the campaign and its result.
+Before the launch campaign, I ran the PR campaign for the Stratos IV crowdfunding, from May to June 2021. It raised **€15,625** from 193 donations, 130% of its €12,000 goal. I designed the Canva templates for the Instagram, Facebook and Twitter posts, wrote the documentation so other members of the PR and business team could contribute posts, scheduled the posts, and worked with the subteam leads to get the right information for each one. The posts introduced each subteam, announced reward tiers such as the mission patch, and reported progress against the goal. The [Stratos IV crowdfunding page](https://www.supporttudelft.nl/project/stratosiv?locale=en) preserves the campaign and its result, and the posts are still on [DARE's Instagram](https://www.instagram.com/daretudelft/).
+
+I also standardised the visual and social-media guidelines, produced photo and video material, and delivered communications commitments for partners including Airbus, Arianespace, NLR and Teijin.
 
 <figure>
   <img src="{{ '/assets/images/photos/stratos-iv-team.webp' | relative_url }}" alt="About fifty DARE team members in navy team shirts and face masks posing around the Stratos IV rocket in front of a hangar." width="1600" height="1067" loading="lazy" decoding="async">

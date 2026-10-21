@@ -108,5 +108,5 @@ Control & Automation (`_projects/control-and-automation.md`):
 
 - [ ] Describe the ATMI control-panel exercise: scope, what you wired or programmed, how it was tested
 - [ ] One or two sentences on a specific PLC program you wrote: inputs and outputs, sequence, test
-- [ ] Name the SMSCP modules
+- [x] Name the SMSCP modules
 - [ ] Photo of the control panel or HMI, and one or two lab photos you own (no faces or names without permission)
