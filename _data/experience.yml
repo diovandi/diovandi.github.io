@@ -5,9 +5,9 @@
   role: Strategic Technical Advisor
   summary: Built internal software and AI tooling for an advisory and project-development firm, from compliance document control to the office's procurement app.
   highlights:
-    - Built a document-control system for compliance projects on Cloudflare Workers and D1, with approvals, revisions, readiness tracking, Excel checklist import and Google Drive storage; built and tested locally.
+    - Led and built a document-control system for compliance projects on Cloudflare Workers and D1, with approvals, revisions, readiness tracking, Excel checklist import and Google Drive storage; now in internal use.
     - Contributed to the office's live procurement and budget app through reviewed pull requests, including monthly budget pots, a compact bilingual UI, CI fixes, a deploy guard and shared working rules for people and AI coding agents.
-    - Built a checklist-compliance checker for import/export and AMDAL environmental requirements, taken to trial stage.
+    - Led a checklist-compliance checker for import/export and AMDAL environmental requirements, now in internal use.
     - Authored Claude skills for on-brand company documents and meeting minutes, and curated a knowledge graph of company material with integrity checks.
     - Reviewed an internal request-tracking application for security and quality and delivered written findings.
 
