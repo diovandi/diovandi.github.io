@@ -28,7 +28,18 @@ During a 7-week industrial traineeship at Politeknik Industri ATMI (May to July 
 
 ## PLC and HMI programming
 
-I program OMRON PLCs in CX-One using ladder diagrams, structured text, and function block diagrams, and build HMI screens for them. I use sequential function charts to plan a program before writing it. In November 2025 I earned the Siemens Mechatronic Systems Certification Program (SMSCP) certificate at Assistant level.
+I program OMRON PLCs in CX-One using ladder diagrams, structured text, and function block diagrams, and build HMI screens for them. I use sequential function charts to plan a program before writing it. 
+
+## Siemens SMSCP certification
+
+In November 2025 I earned the Siemens Mechatronic Systems Certification Program (SMSCP) certificate at Assistant level, issued by SITRAIN (certificate no. 1-74-0061). It is the first of the program's three levels and covers operating mechatronic systems and finding faults in them. The certificate lists four areas:
+
+- Electrical components
+- Mechanical components and electrical drives
+- (Electro) pneumatic and hydraulic control circuits
+- Digital fundamentals and PLCs
+
+SGU teaches the program with a system approach: you start from a whole machine, break it into modules and subsystems, then trace signals and measurements to find the cause of a malfunction. The timed exam tested that directly, with questions on reading ladder logic and Siemens S7 program extracts, predicting how pneumatic cylinders and valves behave, and deciding where to look first when one PLC output fails while the rest of the system works.
 
 ## Teaching-assistant laboratories
 
