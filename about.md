@@ -9,7 +9,7 @@ description: Diovandi Basheera Putra is a mechatronics engineer based in Doha an
   <img src="{{ '/assets/images/photos/headshot-640.webp' | relative_url }}" alt="Portrait of Diovandi Basheera Putra." width="640" height="640" decoding="async">
 </figure>
 
-I am Diovandi Basheera Putra, a mechatronics engineer. I graduated from Swiss German University (S.T. Mechanical Engineering, Mechatronics) in September 2026 and from Fachhochschule Südwestfalen (BEng Industrial Engineering) through their double-degree programme, and I worked as Strategic Technical Advisor at SAG through October 2026. My work sits between physical systems and computation: PLC and control systems, mechanical design, robotics, optimization, and applied AI for engineering documents and data.
+I am Diovandi Basheera Putra, a mechatronics engineer. I graduated from Swiss German University (S.T. Mechanical Engineering, Mechatronics) in September 2026 and from Fachhochschule Südwestfalen (BEng Industrial Engineering) through their double-degree programme, and I worked as Strategic Technical Advisor at SAG until 25 October 2026. My work sits between physical systems and computation: PLC and control systems, mechanical design, robotics, optimization, and applied AI for engineering documents and data.
 
 Before SGU, I studied Aerospace Engineering at TU Delft and worked with Delft Aerospace Rocket Engineering. That period taught me to think at both the component and program level—from load cases, wing structures, and morphing-airfoil analysis to launch communications, sponsor obligations, and executive-board decisions for a 200+ member technical society.
 
