@@ -19,7 +19,7 @@ cover_width: 1153
 cover_height: 1200
 cover_alt: "Diovandi standing next to Dieter Teckhaus beside an EproSafe product banner in the company office."
 cover_caption: "With Dieter Teckhaus, CEO of DEA EproSafe, during my 2025 internship."
-image: /assets/images/photos/eprosafe-ceo.webp
+image: /assets/images/share/eprosafe-ceo.jpg
 ---
 
 At Deutscher Akkuservice in Münster, I worked on mechanical changes for EproSafe fire-resistant battery protection boxes.

@@ -20,7 +20,7 @@ cover_width: 1600
 cover_height: 1206
 cover_alt: "Simulation plots for the induction-motor speed step: speed rising to 1500 rpm with a small overshoot, electromagnetic torque, d- and q-axis currents, and voltage and flux."
 cover_caption: "Induction motor under field-oriented control, no-load step to 1500 rpm: speed, torque, dq currents and voltage."
-image: /assets/images/photos/drives-ac-speed-step.webp
+image: /assets/images/share/drives-ac-speed-step.jpg
 ---
 
 This project studies closed-loop speed and torque control for an armature-controlled DC motor and a three-phase squirrel-cage induction motor using indirect field-oriented control.

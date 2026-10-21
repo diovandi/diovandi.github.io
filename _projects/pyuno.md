@@ -21,7 +21,7 @@ cover_width: 1600
 cover_height: 1001
 cover_alt: "PyUNO game screen on a red table: three AI opponents' face-down hands, the discard and draw piles in the centre, and the player's hand along the bottom."
 cover_caption: "A turn against three AI opponents."
-image: /assets/images/photos/pyuno-gameplay.webp
+image: /assets/images/share/pyuno-gameplay.jpg
 ---
 
 PyUNO implements a full game against three AI opponents, including the standard deck, special cards, turn direction, draw and discard piles, color choice, and an interactive “UNO!” quick-time event with penalties.

@@ -19,7 +19,7 @@ cover_width: 900
 cover_height: 1200
 cover_alt: "The disassembled WPA 50 reducer laid out on cardboard: housing, worm shaft, output shaft, covers, bearings, sprockets, worm wheel, bolts and keys."
 cover_caption: "The full teardown layout, before cleaning and reassembly."
-image: /assets/images/photos/gearbox-layout.webp
+image: /assets/images/share/gearbox-layout.jpg
 ---
 
 As part of industrial training at ATMI, my teammate and I disassembled and reassembled a WPA 50 worm-gearbox reducer.
